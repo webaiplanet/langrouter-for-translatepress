@@ -238,6 +238,27 @@ Yes. LangRouter provides built-in runtime file logging so you can inspect select
 9. DeepL settings with multi-key management, cooldown controls, and key status.
 10. Compatible OpenAI API settings for third-party gateways and compatible providers, including headers and request JSON.
 
+<img width="1925" height="2188" alt="screenshot-1" src="https://github.com/user-attachments/assets/7b9b3fa0-8a99-435f-a3cd-ec0ba8572e2b" />
+
+<img width="1927" height="2290" alt="screenshot-2" src="https://github.com/user-attachments/assets/b2e88019-892d-4657-a9dd-224293937cdd" />
+
+<img width="1930" height="3092" alt="screenshot-3" src="https://github.com/user-attachments/assets/0dfbd645-37fa-4daf-9699-577d001cc432" />
+
+<img width="1933" height="1619" alt="screenshot-4" src="https://github.com/user-attachments/assets/3bd84a07-d1e4-458e-b5dc-d3ae0c84e123" />
+
+<img width="1938" height="1781" alt="screenshot-5" src="https://github.com/user-attachments/assets/ac20787e-b9d2-4161-89b6-26c3767362f7" />
+
+<img width="1936" height="1627" alt="screenshot-6" src="https://github.com/user-attachments/assets/7381b12e-0370-4f56-83a9-91674ad21549" />
+
+<img width="1935" height="1962" alt="screenshot-7" src="https://github.com/user-attachments/assets/5ece9c36-3417-47a6-8cc5-d5d986316539" />
+
+<img width="1938" height="1594" alt="screenshot-8" src="https://github.com/user-attachments/assets/5c6a3d8e-0df5-4115-bb45-53aef1bc8f69" />
+
+<img width="1934" height="2385" alt="screenshot-9" src="https://github.com/user-attachments/assets/ab8986bd-f6c7-4e73-8411-f8704f07ea38" />
+
+<img width="1935" height="2679" alt="screenshot-10" src="https://github.com/user-attachments/assets/9dcab596-7cfd-46b2-9c51-06231d40dd42" />
+
+
 == Changelog ==
 
 = 1.1.3 =
