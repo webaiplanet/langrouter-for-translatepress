@@ -380,6 +380,36 @@ https://www.alibabacloud.com/help/en/legal/latest/alibaba-cloud-international-we
 9. DeepL 设置页面，包含号池管理、冷却时间控制和密钥运行状态。
 10. 兼容 OpenAI API 设置页面，适用于第三方网关和兼容服务，并支持额外请求头与请求 JSON。
 
+<img width="1925" height="2188" alt="screenshot-1" src="https://github.com/user-attachments/assets/7b9b3fa0-8a99-435f-a3cd-ec0ba8572e2b" />
+TranslatePress 自动翻译中的路由设置页面，包括默认引擎选择器。
+
+<img width="1927" height="2290" alt="screenshot-2" src="https://github.com/user-attachments/assets/b2e88019-892d-4657-a9dd-224293937cdd" />
+带有单条规则回退行为的文章类型路由设置，可用于文章、页面、商品和自定义文章类型。
+
+<img width="1930" height="3092" alt="screenshot-3" src="https://github.com/user-attachments/assets/0dfbd645-37fa-4daf-9699-577d001cc432" />
+语言分配、回退规则、语言支持查询，以及与 TranslatePress 测试按钮相关的联动界面。
+
+<img width="1933" height="1619" alt="screenshot-4" src="https://github.com/user-attachments/assets/3bd84a07-d1e4-458e-b5dc-d3ae0c84e123" />
+日志页面，包含内置运行日志查看器和日志文件管理操作。
+
+<img width="1938" height="1781" alt="screenshot-5" src="https://github.com/user-attachments/assets/ac20787e-b9d2-4161-89b6-26c3767362f7" />
+火山方舟设置页面，包含账号池输入、用量概览和诊断信息。
+
+<img width="1936" height="1627" alt="screenshot-6" src="https://github.com/user-attachments/assets/7381b12e-0370-4f56-83a9-91674ad21549" />
+Qwen 设置页面，包含 API Key、模型、区域、自定义接口、超时和额外请求 JSON。
+
+<img width="1935" height="1962" alt="screenshot-7" src="https://github.com/user-attachments/assets/5ece9c36-3417-47a6-8cc5-d5d986316539" />
+Hunyuan 设置页面，支持腾讯云官方翻译模型和兼容第三方模型端点。
+
+<img width="1938" height="1594" alt="screenshot-8" src="https://github.com/user-attachments/assets/5c6a3d8e-0df5-4115-bb45-53aef1bc8f69" />
+OpenAI 设置页面，包含官方模型选择、自定义模型名、自定义接口、超时和请求 JSON。
+
+<img width="1934" height="2385" alt="screenshot-9" src="https://github.com/user-attachments/assets/ab8986bd-f6c7-4e73-8411-f8704f07ea38" />
+DeepL 设置页面，包含号池管理、冷却时间控制和密钥运行状态。
+
+<img width="1935" height="2679" alt="screenshot-10" src="https://github.com/user-attachments/assets/9dcab596-7cfd-46b2-9c51-06231d40dd42" />
+兼容 OpenAI API 设置页面，适用于第三方网关和兼容服务，并支持额外请求头与请求 JSON。
+
 == 更新日志 ==
 
 = 1.1.3 =
