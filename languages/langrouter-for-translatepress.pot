@@ -1,0 +1,4789 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LangRouter for TranslatePress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-15 22:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.3; wp-6.9.4; php-8.3.25\n"
+"X-Domain: langrouter-for-translatepress"
+
+#. %1$s and %2$s: Tencent model codes in <code>; %3$s: compatible model code in <code>; %4$s and %5$s: SiliconFlow links.
+#: templates/admin/sections/engine-hunyuan.php:27
+#, php-format
+msgid "%1$s 与 %2$s 只能使用腾讯云中国和腾讯云国际 KEY，%3$s 是第三方 / 硅基兼容模型入口，%4$s，%5$s。"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:11
+#, php-format
+msgid "%1$s不支持 %2$s 语言，跳过主调用并准备回退。"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:13
+#, php-format
+msgid "%1$s不支持源语言 %2$s，跳过主调用并准备回退。"
+msgstr ""
+
+#. %s: Engine label.
+#: includes/admin/engines/class-admin-engine-config-base.php:70
+#, php-format
+msgid "%s 的附加请求 JSON 不是合法的 JSON 对象，已保留上一次有效值。"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:15
+#, php-format
+msgid "%s当前不可用，跳过主调用并准备回退。"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:19
+#, php-format
+msgid "%s预检查未通过，跳过主调用并准备回退。"
+msgstr ""
+
+#. %d: Number of bytes shown from the end of the log file.
+#: includes/support/class-logger.php:456
+msgid "... [仅显示最后 %d 字节]"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:26
+msgid "1. 先确认日志是否已启用"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:15
+msgid "1. 模型设置页是什么"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:15
+msgid "1. 默认引擎是什么"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:100
+msgid "10. 一个最容易理解的例子"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:133
+msgid "10. 为什么我看见 DeepL 的日志，但这次想测的是Hunyuan、Qwen 或火山？"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:275
+msgid "10. 建议的配置顺序"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:137
+msgid "11. 常见报错怎么理解"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:119
+msgid "11. 新人最容易误解的几件事"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:145
+msgid "12. 为什么已经进入回退链，最终还是没有结果？"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:128
+msgid "12. 给小白的最简单理解方式"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:163
+msgid "13. 为什么 source_language 有时是 zh_CN，有时是 en_US？"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:167
+msgid "14. 为什么 primary_result_count 是 0，看起来却没有明显报错？"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:171
+msgid "15. 新手最推荐的排错方式是什么？"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:59
+msgid "1）失败不翻译"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:22
+msgid "2. 文章类型分配是做什么的"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:31
+msgid "2. 看日志时，第一步永远先找 route_id"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:19
+msgid "2. 路由设置页是什么"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:80
+msgid "2）仅默认引擎"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:47
+msgid "3. 最重要的几个字段，先看这些就够了"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:42
+msgid "3. 最重要：文章类型分配只对单篇内容页生效"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:23
+msgid "3. 默认引擎是什么"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:101
+msgid "3）全局规则"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:63
+msgid "4. 推荐的排错顺序"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:31
+msgid "4. 文章类型分配是什么"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:56
+msgid "4. 文章类型规则里的“失败后回退”是什么意思"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:94
+msgid "403 一般不是额度问题，通常是 key 无效、接口类型不匹配或权限受限。"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:91
+msgid "403 冷却秒数"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:79
+msgid "429 冷却秒数"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:87
+msgid "456 配额冷却秒数"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:73
+msgid "5. route_source 到底是什么意思"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:127
+msgid "5. 语言分配怎么写"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:47
+msgid "5. 语言分配是什么"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:93
+msgid "6. 为什么日志里会写 configured_language_rule_engine = volc，但这次实际没有走 volc？"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:143
+msgid "6. 回退规则怎么写"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:62
+msgid "6. 回退规则是什么"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:159
+msgid "7. 完整优先级怎么理解"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:97
+msgid "7. 怎么看文章类型规则到底有没有生效"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:76
+msgid "7. 文章类型规则里的失败模式是什么"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:169
+msgid "8. 几个最常见的实际示例"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:109
+msgid "8. 怎么看“失败不翻译”“仅默认引擎”“全局规则”是否按预期执行"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:87
+msgid "8. 账号池是什么"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:129
+msgid "9. 为什么一次日志里会出现多个引擎？"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:266
+msgid "9. 写规则时最容易错的地方"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:91
+msgid "9. 日志是什么"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:224
+msgid ""
+"<code>timeout=60</code> <br><code>concurrency=4</code> <br><code>"
+"max_tokens=2200</code> <br><code>retry=2</code> <br><code>"
+"long_text_threshold=1800</code> <br><code>long_text_chunk_chars=1200</code> "
+"<br><code>long_html_chunk_chars=1600</code>"
+msgstr ""
+
+#: templates/admin/sections/help.php:50
+msgid "<strong>提示</strong>：模型设置主要维护各个子引擎的模型参数、接口地址、密钥、账号池和备注。"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:121
+msgid ""
+"<strong>状态说明：</strong><code>403</code> 常见于 key 无效、free/pro 接口不匹配或权限受限；<code>"
+"456</code> 常见于额度用尽; <code>403</code> 一般用于 Key 被限制。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:202
+msgid ""
+"<strong>状态说明：</strong><code>403</code> 常见于 key 无效、free/pro 接口不匹配或权限受限；<code>"
+"456</code> 常见于额度用尽。"
+msgstr ""
+
+#. %s: TranslatePress automatic translation settings URL.
+#: templates/admin/sections/help.php:62
+#, php-format
+msgid ""
+"<strong>路由规则、默认引擎、语言分配和回退规则</strong>仍在 <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">TranslatePress → 自动翻译</a> 页面的“路由设置”区域调整。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:36
+msgid ""
+"[DEBUG] Router 路由命中 {\"route_id\":\"r-20260318-092016-0001\", ...}\n"
+"[DEBUG] Router 开始分发翻译请求 {\"route_id\":\"r-20260318-092016-0001\", ...}\n"
+"[DEBUG] 回退决策 {\"route_id\":\"r-20260318-092016-0001\", ...}\n"
+"[DEBUG] Router 路由完成 {\"route_id\":\"r-20260318-092016-0001\", ...}"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:95
+msgid "Access Key/Secret Access Key 用于查询 GetInferenceUsage；APIKey 仍用于实际翻译请求。"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:15
+#: templates/admin/sections/engine-openai-compatible.php:33
+#: templates/admin/sections/engine-openai.php:15
+msgid "API Key"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:24
+msgid "API Key / Access Key"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:454
+msgid "CentOS / AlmaLinux / RockyLinux"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:450
+msgid "Debian / Ubuntu"
+msgstr ""
+
+#: includes/class-language-support-query.php:22
+#: includes/admin/class-engine-registry.php:52
+#: includes/engines/deepl/class-deepl-engine.php:20
+#: templates/admin/help/content-engines.php:198
+msgid "DeepL"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:934
+msgid "DeepL quota_exceeded 提前停止后续 chunk"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:950
+#: includes/engines/deepl/class-deepl-engine.php:491
+msgid "DeepL test_request 开始"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:962
+#: includes/engines/deepl/class-deepl-engine.php:497
+msgid "DeepL test_request 返回"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:867
+msgid "DeepL translate_array 开始"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:942
+msgid "DeepL translate_array 结束"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:595
+msgid "DeepL 尝试账号池条目"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:30
+msgid "DeepL 已接入内置账号池。"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-engine.php:333
+msgid "DeepL 支持语言列表已刷新。"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-engine.php:293
+msgid "DeepL 支持语言命中缓存。"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-engine.php:320
+msgid "DeepL 支持语言预检查未命中：未能获取支持语言列表，本次保持运行时兜底。"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:916
+msgid "DeepL 短文本上下文增强已启用"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-engine.php:473
+msgid "DeepL 翻译返回"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:890
+msgid "DeepL 语言代码解析失败，跳过本次请求。"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:578
+msgid "DeepL 账号池开始选择候选 key"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:587
+msgid "DeepL 账号池无可用 key"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:533
+msgid "DeepL 账号池条目请求失败"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:606
+msgid "DeepL 账号池条目请求成功"
+msgstr ""
+
+#. %s: Target language code.
+#: includes/engines/deepl/class-deepl-engine.php:461
+msgid "DeepL不可用：未检测到可实例化的 DeepL 翻译器类。"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:35
+#, php-format
+msgid "DeepL不支持 %s 语言，直接跳过主调用。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:462
+msgid "Docker 镜像"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:131
+#: templates/admin/help/content-concepts.php:52
+msgid ""
+"en_US = hunyuan\n"
+"yue = deepl\n"
+"am = openai_compatible"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:67
+msgid ""
+"en_US = volc\n"
+"yue = openai"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:147
+msgid ""
+"en_US = volc\n"
+"yue = openai\n"
+"am = hunyuan"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:100
+msgid "fallback_mode / runtime_fallback_mode：文章类型规则失败后允许怎么继续。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:119
+msgid ""
+"fallback_mode: \"none\"\n"
+"runtime_fallback_mode: \"none\"\n"
+"planned_fallback_chain: []"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:101
+msgid "fallback_source：这次如果发生回退，是从哪一层继续的。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:102
+msgid "final_engine / final_status：最终是哪个引擎完成，或者在哪一步停止。"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:16
+msgid "GitHub Issues"
+msgstr ""
+
+#: templates/admin/sections/engine-openai.php:49
+msgid "gpt-4.1-mini（均衡推荐）"
+msgstr ""
+
+#: templates/admin/sections/engine-openai.php:50
+msgid "gpt-4.1-nano（更轻量）"
+msgstr ""
+
+#: templates/admin/sections/engine-openai.php:51
+msgid "gpt-4.1（质量优先）"
+msgstr ""
+
+#: templates/admin/sections/engine-openai.php:48
+msgid "gpt-4o-mini（快速、低成本）"
+msgstr ""
+
+#: templates/admin/sections/engine-openai.php:52
+msgid "gpt-4o（通用高质量）"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:157
+#: templates/admin/help/content-engines.php:362
+msgid "HTML 长段每段多大"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:364
+msgid "HTML 页面慢或超时就调小。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:197
+#: templates/admin/help/content-engines.php:397
+msgid "HTML 额外加时"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:363
+msgid "HTML、富文本、带很多标签的内容切多大。"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.webaiplanet.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://www.webaiplanet.com/wordpress/plugins/langrouter-for-translatepress/"
+msgstr ""
+
+#: includes/class-language-support-query.php:21
+#: includes/admin/class-engine-registry.php:32
+#: includes/engines/hunyuan/class-hunyuan-engine.php:8
+#: includes/admin/engines/class-hunyuan-admin-config.php:53
+msgid "Hunyuan"
+msgstr ""
+
+#: includes/engines/hunyuan/class-hunyuan-client.php:988
+msgid "Hunyuan test_request 开始"
+msgstr ""
+
+#: includes/engines/hunyuan/class-hunyuan-client.php:1002
+msgid "Hunyuan test_request 返回"
+msgstr ""
+
+#: includes/engines/hunyuan/class-hunyuan-client.php:844
+msgid "Hunyuan translate_batch 开始"
+msgstr ""
+
+#: includes/engines/hunyuan/class-hunyuan-client.php:963
+msgid "Hunyuan translate_batch 结束"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:143
+msgid "Hunyuan 模型支持的语言："
+msgstr ""
+
+#: templates/admin/help/content-engines.php:121
+msgid "Hunyuan 翻译"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:123
+msgid ""
+"Hunyuan 翻译 现在同时支持两类接入：<strong>腾讯云官方翻译模型</strong>（<code>hunyuan-translation-"
+"lite</code> / <code>hunyuan-translation</code>）与 <strong>Hunyuan-MT-"
+"7B</strong>（默认走 SiliconFlow 的 OpenAI 兼容接口，可自定义 API 地址）。"
+msgstr ""
+
+#: includes/engines/hunyuan/class-hunyuan-client.php:716
+msgid "Hunyuan单条翻译返回"
+msgstr ""
+
+#: includes/engines/hunyuan/class-hunyuan-client.php:780
+msgid "Hunyuan并发翻译开始"
+msgstr ""
+
+#: includes/engines/hunyuan/class-hunyuan-client.php:913
+msgid "Hunyuan批次无可发送文本"
+msgstr ""
+
+#: includes/engines/hunyuan/class-hunyuan-client.php:953
+msgid "Hunyuan批次请求已发送但无成功结果"
+msgstr ""
+
+#: includes/engines/hunyuan/class-hunyuan-client.php:899
+msgid "Hunyuan批次预处理结果"
+msgstr ""
+
+#: includes/engines/hunyuan/class-hunyuan-client.php:853
+msgid "Hunyuan未配置可用凭据"
+msgstr ""
+
+#: includes/engines/hunyuan/class-hunyuan-client.php:863
+msgid "Hunyuan目标语言未映射成功"
+msgstr ""
+
+#: includes/engines/hunyuan/class-hunyuan-client.php:703
+msgid "Hunyuan请求失败"
+msgstr ""
+
+#: includes/engines/hunyuan/class-hunyuan-client.php:727
+msgid "Hunyuan返回无法解析的响应"
+msgstr ""
+
+#: includes/engines/hunyuan/class-hunyuan-client.php:739
+msgid "Hunyuan返回结果未通过安全校验，回退原文"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:129
+msgid "Key"
+msgstr ""
+
+#. Name of the plugin
+msgid "LangRouter for TranslatePress"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:68
+msgid ""
+"LangRouter for TranslatePress 是免费使用的。若它恰好帮到了你，欢迎自愿支持作者。每一份支持，都会转化为后续维护与更新的动力。"
+msgstr ""
+
+#: includes/class-admin-settings.php:64 includes/class-admin-settings.php:65
+msgid "LangRouter 引擎"
+msgstr ""
+
+#: includes/class-router-engine.php:35
+msgid "LangRouter 智能翻译"
+msgstr ""
+
+#: templates/admin/page-model-settings.php:14
+msgid "LangRouter 智能翻译 AI 引擎"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:458
+msgid "macOS（本地调试）"
+msgstr ""
+
+#: includes/admin/class-engine-registry.php:42
+#: includes/admin/engines/class-openai-admin-config.php:45
+#: templates/admin/help/content-engines.php:160
+msgid "OpenAI"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2612
+msgid "OpenAI test_request 失败"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2601
+msgid "OpenAI test_request 开始"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2619
+msgid "OpenAI test_request 返回"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2482
+msgid "OpenAI translate_batch 速度版开始"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2574
+msgid "OpenAI translate_batch 速度版结束"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2438
+msgid "OpenAI 单条兜底失败"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2464
+msgid "OpenAI 单条兜底返回"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2320
+msgid "OpenAI 单条并发兜底失败"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2277
+msgid "OpenAI 单条并发兜底开始"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2343
+msgid "OpenAI 单条并发兜底返回"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2468
+msgid "OpenAI 单条请求返回错误负载"
+msgstr ""
+
+#: includes/admin/engines/class-openai-admin-config.php:22
+msgid "OpenAI 官方默认走 https://api.openai.com/v1/chat/completions，并支持自定义 API。"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2080
+msgid "OpenAI 小批量并发翻译开始"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2122
+msgid "OpenAI 批量并发请求失败"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2415
+msgid "OpenAI 批量翻译返回"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2381
+msgid "OpenAI 批量请求失败"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2419
+msgid "OpenAI 批量请求返回错误负载"
+msgstr ""
+
+#. %s: Link to the OpenAI-compatible engine settings page.
+#: templates/admin/help/content-engines.php:173
+#, php-format
+msgid ""
+"OpenAI 支持 <code>OpenAI 官方 API</code> 与 <code>第三方兼容 OpenAI API</code>，并支持自定义 "
+"API 地址，建议只设置 OpenAI 官方接口，如第三方兼容 OpenAI API请到 %s 处启用。"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2490
+msgid "OpenAI 未配置可用 API Key"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:2501
+msgid "OpenAI 目标语言未映射成功"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:1369
+msgid "OpenAI 长文本切块翻译失败"
+msgstr ""
+
+#: includes/engines/openai/class-openai-client.php:1344
+msgid "OpenAI 长文本切块翻译开始"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:420
+msgid ""
+"OpenCC 不是翻译引擎，它更像是 <strong>把已经输出出来的简体中文页面，在前台最终响应阶段整体转换成繁体中文</strong>"
+"。当路由设置里的“繁体中文处理方式”选择为 <strong>由 OpenCC 转换</strong> "
+"时，繁体中文目标语言会跳过自动翻译入库，前台保持原文输出，再由插件内置的 OpenCC 接管整页转换。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:432
+msgid "OpenCC 是什么，不是什么"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:484
+msgid ""
+"opencc 路径是否和服务器实际路径一致。插件会自动尝试 /usr/bin/opencc、/usr/local/bin/opencc 和 opencc。"
+msgstr ""
+
+#: templates/router-settings.php:117
+#: includes/engines/opencc/class-opencc-utils.php:17
+msgid "OpenCC 转换"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:419
+msgid "OpenCC（繁体中文前台全页转换）"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:483
+msgid "PHP 是否禁用了 shell_exec。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:485
+msgid "PHP 的临时目录是否可写，因为插件会先写临时输入文件和输出文件。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:427
+msgid "PHP 需要允许 shell_exec。很多主机面板或安全策略会禁用它。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:99
+msgid "post_type_rule_found：是否真的命中了文章类型规则。"
+msgstr ""
+
+#: includes/class-language-support-query.php:20
+#: includes/admin/class-engine-registry.php:22
+#: includes/engines/qwen/class-qwen-engine.php:8
+#: includes/admin/engines/class-qwen-admin-config.php:49
+msgid "Qwen"
+msgstr ""
+
+#: includes/engines/qwen/class-qwen-client.php:669
+msgid "Qwen API Key 未配置"
+msgstr ""
+
+#: includes/engines/qwen/class-qwen-client.php:659
+msgid "Qwen test_request 开始"
+msgstr ""
+
+#: includes/engines/qwen/class-qwen-client.php:676
+msgid "Qwen test_request 返回"
+msgstr ""
+
+#: includes/engines/qwen/class-qwen-client.php:397
+msgid "Qwen translate_batch 开始"
+msgstr ""
+
+#: includes/engines/qwen/class-qwen-client.php:454
+msgid "Qwen translate_batch 结束"
+msgstr ""
+
+#: includes/engines/qwen/class-qwen-client.php:628
+msgid "Qwen 单条翻译返回"
+msgstr ""
+
+#: includes/engines/qwen/class-qwen-client.php:497
+msgid "Qwen 并发翻译开始"
+msgstr ""
+
+#: includes/engines/qwen/class-qwen-client.php:404
+msgid "Qwen 未配置可用 API Key"
+msgstr ""
+
+#: includes/engines/qwen/class-qwen-client.php:418
+msgid "Qwen 目标语言未映射成功"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:86
+msgid "Qwen 翻译"
+msgstr ""
+
+#. 1: opening strong tag, 2: closing strong tag, 3: opening strong tag, 4: closing strong tag, 5: supported languages link
+#: templates/admin/help/content-engines.php:93
+#, php-format
+msgid ""
+"Qwen 翻译已接入阿里云百炼 Qwen-MT 官方 OpenAI 兼容接口。不同地域填该地域的 API KEY：只配 %1$sAPI Key + 模型 "
+"+ 地域%2$s；一般情况下只需选择地域即可，%3$s自定义 API%4$s 通常留空，%5$s。"
+msgstr ""
+
+#: includes/engines/qwen/class-qwen-client.php:613
+msgid "Qwen 请求失败"
+msgstr ""
+
+#: includes/engines/qwen/class-qwen-client.php:636
+msgid "Qwen 返回无法解析的响应"
+msgstr ""
+
+#: includes/admin/engines/class-qwen-admin-config.php:21
+msgid "Qwen-MT 通过官方 OpenAI 兼容接口接入。"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:53
+msgid "qwen-mt-flash（均衡推荐）"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:54
+msgid "qwen-mt-lite（更便宜、更快）"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:55
+msgid "qwen-mt-plus（质量优先）"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:33
+#, php-format
+msgid "Qwen不支持 %s 语言，直接跳过主调用。"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Route TranslatePress automatic translations across multiple engines with "
+"language-based rules, fallback control, and flexible provider routing."
+msgstr ""
+
+#: templates/admin/help/content-logs.php:32
+msgid "route_id 是同一次请求的关联编号。排查时不要东看一条、西看一条，而是要先找到同一个 route_id，再把它下面的一整组日志串起来读。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:96
+msgid "route_id：先确认你看的确实是同一次请求。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:74
+msgid "route_source 用来说明“主引擎是从哪一层规则选出来的”。新人最容易在这里看错。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:98
+msgid "route_source：主路由是从文章类型规则、语言分配，还是默认引擎命中的。"
+msgstr ""
+
+#: includes/class-router-engine.php:164
+msgid "Router test_request 子引擎返回"
+msgstr ""
+
+#: includes/class-router-engine.php:154
+msgid "Router test_request 开始"
+msgstr ""
+
+#: includes/class-router-engine.php:737
+msgid "Router 丢弃可疑翻译结果"
+msgstr ""
+
+#: includes/class-router-engine.php:883
+msgid "Router 已过滤可疑翻译结果"
+msgstr ""
+
+#: includes/class-router-engine.php:858
+msgid "Router 开始分发翻译请求"
+msgstr ""
+
+#: includes/class-router-engine.php:76
+msgid "Router 设置已保存"
+msgstr ""
+
+#: includes/class-router-engine.php:823
+msgid "Router 路由命中"
+msgstr ""
+
+#: includes/class-router-engine.php:322
+msgid "Router 路由完成"
+msgstr ""
+
+#: includes/class-router-engine.php:787
+msgid "Router 路由跳过"
+msgstr ""
+
+#: includes/class-router-engine.php:800
+msgid "Router 跳过繁体中文自动翻译，交给 OpenCC/其他方式处理"
+msgstr ""
+
+#. 1: Requested fallback engine slug, 2: Default engine slug.
+#: includes/class-router-engine.php:712
+msgid "Router 跳过结果安全过滤"
+msgstr ""
+
+#. %s: Current default engine slug.
+#: includes/class-router-engine.php:181
+#, php-format
+msgid "router-ok engine=%s (仅表示 Router 已接管；未执行子引擎联通性测试)"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:28
+msgid "Secret Key / Secret"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:51
+msgid "SecretId / API Key"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:61
+msgid "SecretKey"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:83
+msgid ""
+"selected_engine: \"qwen\"\n"
+"route_source: \"post_type_map\"\n"
+"matched_rule: \"guides = qwen\""
+msgstr ""
+
+#: templates/admin/help/content-faq.php:97
+msgid "selected_engine：这次主路由最开始选中了哪个引擎。"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:43
+#: templates/admin/help/content-engines.php:128
+msgid "SiliconFlow 中国"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:44
+#: templates/admin/help/content-engines.php:131
+msgid "SiliconFlow 国际"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:110
+msgid "temperature"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:117
+msgid "top_p"
+msgstr ""
+
+#: templates/admin/page-model-settings.php:9
+msgid "TranslatePress"
+msgstr ""
+
+#: includes/class-language-support-query.php:346
+msgid "TranslatePress 内置 DeepL"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:200
+msgid ""
+"TranslatePress 内置的 DeepL 会直接使用配置的账号池，格式仍为一行一个 Key，可选前缀：<code>free:"
+"YOUR_KEY</code> 或 <code>pro:YOUR_KEY</code>；不写前缀时，统一按 <code>free</code> "
+"处理，<code>:fx</code> key 也会自动识别为 <code>free</code>，添加前缀 <code>pro:</code> "
+"时才走专业版接口。"
+msgstr ""
+
+#: templates/router-settings.php:116
+#: includes/engines/opencc/class-opencc-utils.php:16
+msgid "TranslatePress 翻译"
+msgstr ""
+
+#. Author of the plugin
+msgid "WebAIPlanet"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:20
+msgid "WordPress 社区支持"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:125
+msgid "{\"Field\":\"游戏剧情\"}"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:75
+msgid "“失败不翻译”“仅默认引擎”“全局规则”到底有什么区别？"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:53
+msgid ""
+"“给 guides 指定 Qwen”的真正含义是：当 Router 正在翻译某个 guides 单篇详情页内容时，优先走 Qwen；不是所有和 "
+"guides 有关的页面都强制走 Qwen。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:113
+msgid ""
+"“配好了”不一定等于“真的能翻译成功”。很多失败来自密钥错误、模型名不匹配、接口地址错误、目标语言不支持，或者上游接口虽然返回了 "
+"200，但实际上携带了错误信息。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:343
+msgid "一批短句加起来最多多长。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:368
+msgid "一旦文本到第一档长度，就自动把并发压到这个上限。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:96
+msgid ""
+"一旦这一步成功，就说明至少下面几件事是正常的：引擎配置本身可用、密钥或接口参数可用、插件能够实际发起请求、默认引擎能够承担翻译。这样后面再增加语言分配或回退规则时，排错范围就会小很多。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:78
+msgid "一条请求最多等多久。文章一长就报 timeout，就把它调大。新手直接用 60。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:259
+msgid "一条请求最多等多久。文章越长、模型越慢，这个越重要。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:264
+msgid "一次同时发几条请求。大了更快，但更容易把第三方网关打挂。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:85
+msgid "一次同时发几条请求。越大越快，但越容易把第三方网关打崩。新手用 4；经常 429 或超时就先改成 2。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:338
+msgid "一次把多少条短句打包到同一请求里。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:353
+msgid "一段文本长到这里，就不再整段硬发，而是自动切开翻。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:349
+msgid "一般保持 0。除非某个兼容接口特别挑这个。"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:72
+msgid ""
+"一行一个，前缀 <code>free:</code> / <code>pro:</code>；若不写前缀，默认按 <code>free</code> "
+"处理，添加前缀 <code>pro:</code> 时才走专业版接口，<code>:fx</code> key 也会自动识别为 <code>"
+"free</code>，TranslatePress 内置的 DeepL 会直接使用这里配置的账号池。"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:50
+msgid "一行一个，格式：<code>Header-Name: value</code>。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:45
+msgid "上面的四条如果 route_id 相同，就属于同一次路由链路，应该放在一起看。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:45
+msgid "上面的意思是：商品详情页优先走 DeepL，攻略详情页优先走 Qwen。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:20
+msgid "上面的意思是：如果当前请求没有命中任何更高优先级规则，最后就使用 OpenAI。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:74
+msgid "上面的意思是：如果英文当前主引擎不能继续，就尝试火山；如果粤语当前主引擎不能继续，就尝试 OpenAI。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:29
+msgid "上面的意思是：如果这次请求没有命中任何更高优先级规则，最后就用 OpenAI。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:155
+msgid ""
+"上面的意思是：当英文当前主引擎不能继续时，尝试火山；当粤语当前主引擎不能继续时，尝试 OpenAI；当阿姆哈拉语当前主引擎不能继续时，尝试Hunyuan。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:78
+msgid ""
+"上面的意思是：攻略页先走 Qwen；如果 Qwen 不支持当前目标语言、不可用或翻译失败，则直接停止，不会继续尝试 volc、hunyuan 或默认的 "
+"DeepL。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:99
+msgid "上面的意思是：攻略页先走 Qwen；如果 Qwen 不能继续，则不管语言分配和回退规则里写了什么，都直接尝试默认引擎 OpenAI。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:120
+msgid ""
+"上面的意思是：攻略页先走 Qwen；如果 Qwen 不能继续，则先尝试语言分配里的 volc，再尝试回退规则里的 hunyuan，最后才尝试默认的 "
+"DeepL。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:40
+msgid "上面的意思是：普通文章和页面优先走 OpenAI，商品页优先走 DeepL，攻略页优先走 Qwen。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:60
+msgid "上面的意思是：英文优先走Hunyuan，粤语优先走 DeepL，阿姆哈拉语优先走兼容 OpenAI。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:139
+msgid "上面的意思是：英文（en_US）优先走Hunyuan，粤语（yue）优先走 DeepL，阿姆哈拉语（am）优先走兼容 OpenAI。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:32
+msgid ""
+"上面的配置里，如果当前请求是 guides 单篇内容页，那么会先走 Qwen；如果不是 guides 单篇，但目标语言是 am，则会走 "
+"volc；只有两者都没命中时，最后才走默认的 OpenAI。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:206
+msgid ""
+"上面这一整块主要给排查问题的人用。正常情况下不用改。真要动，优先只看这 3 "
+"个：\"超过多少字开始切段\"、\"普通长文每段多大\"、\"单条请求基础超时\"。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:127
+msgid "上面这组最常见于“失败不翻译”，表示主引擎失败后不再继续尝试后续链路。"
+msgstr ""
+
+#: templates/admin/sections/logs.php:73
+msgid "下载日志文件"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:326
+msgid "下面是高级参数的对照表。你不用全部掌握，只有排查问题时再回来对照。"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:108
+msgid "下面表格按号池顺序逐条显示全部接入点，并在当前轮转接入点后标记“当前”。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:14
+msgid "不会调参数？先用推荐起步参数。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:233
+msgid "不会调就这样填"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:19
+msgid "不同地域需进入阿里百炼后台根据对应地域创建 API Key。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:440
+msgid "不同系统安装方式不完全一样，下面给你常见示例。实际以你服务器系统的软件仓库为准。"
+msgstr ""
+
+#. %s: Comma-separated engine slugs.
+#: templates/router-settings.php:144
+#, php-format
+msgid ""
+"不同语言分配不同引擎，一行一个，格式：<code>bs_BA = deepl</code>。可用引擎标识（语言分配与回退请填写 <code>"
+"%s</code> 这里的标识，不要写标签名称）。"
+msgstr ""
+
+#: assets/js/admin-language-query.js:69
+msgid "不支持"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:116
+msgid "不是所有语言都一定适合 Qwen，建议先确认目标语言是否被当前模型支持。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:403
+msgid "不管怎么动态加时，最后都不会超过这个上限。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:23
+msgid ""
+"不要只看“日志里出现了哪个引擎名”，要优先围绕同一个 route_id "
+"看完整链路。很多时候，日志里出现某个引擎，只表示它被检查过、被实例化过、被当成回退候选，或者做了语言支持判断，不一定表示它就是这次真正负责翻译的主引擎。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:299
+msgid "专门处理长文章、HTML 大段落、自动切段、动态超时、长文自动降并发。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:19
+msgid "中等服务器（如 2C4G / 4C4G）：全局可先试 3–4；大多数引擎先填 0 继承即可。只在某个引擎明显更稳时，再单独把它调高。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:84
+msgid "为什么一次日志里会出现多个引擎？"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:82
+msgid "为什么不建议一开始就把所有功能都打开"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:109
+msgid "为什么保存一个标签页，其他引擎设置还在？"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:104
+msgid "为什么命中或没命中。例如 matched_post_type_map 表示命中成功。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:112
+msgid "为什么我已经配好了某个引擎，翻译还是失败？"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:34
+msgid "为什么我明明写了语言分配，结果还是先走了文章类型指定引擎？"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:88
+msgid "为什么我看见 DeepL 的日志，但这次想测的是 Qwen 或Hunyuan？"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:116
+msgid "为什么我设置了回退规则，但最终还是没有结果？"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:48
+msgid "为什么我设置了回退规则，但没有触发？"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:38
+msgid "为什么我设置了文章类型分配，但看起来没有生效？"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:15
+msgid "为什么我设置了默认引擎，实际却走了别的引擎？"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:52
+msgid "为什么文章类型规则设置成“失败不翻译”后，还是看到了语言分配或默认引擎？"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:105
+msgid "为什么日志里写着语言分配是 volc，但这次实际并没有走 volc？"
+msgstr ""
+
+#: includes/class-router-engine.php:895
+msgid "主引擎失败"
+msgstr ""
+
+#: includes/class-router-engine.php:908
+msgid "主引擎翻译完成"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:51
+msgid "主路由是从哪一层命中的，例如 post_type_map、language_map、default_engine。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:289
+msgid "也是控制随机性，但大多数翻译场景不用折腾它。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:94
+msgid "什么叫“最小链路已经跑通”"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:332
+msgid "什么时候才需要改"
+msgstr ""
+
+#. %1$s and %2$s: Links to Tencent Cloud China and International SecretKey pages.
+#: templates/admin/sections/engine-hunyuan.php:69
+#, php-format
+msgid "仅腾讯云官方模型需要填写，%1$s，%2$s。"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:98
+msgid ""
+"仅腾讯云官方翻译模型使用。选择后，若“自定义API”留空，将自动绑定对应官方地址；<code>hunyuan-mt-7b</code> 不受此项影响。"
+msgstr ""
+
+#: assets/js/router-settings.js:25
+msgid "仅默认引擎"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:114
+msgid "仅默认引擎。planned_fallback_chain 里通常只有默认引擎。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:80
+msgid "仅默认引擎：主引擎失败后跳过语言分配和回退规则，直接尝试默认引擎。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:81
+msgid "仅默认引擎：文章类型主引擎失败后，跳过语言分配和回退规则，直接尝试默认引擎。"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1492
+msgid "今日无官方用量"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1374
+msgid "今日暂无官方用量数据，已按0处理。"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:115
+msgid "优先且只走账号池；路由版不再回退 TranslatePress 原始 DeepL key。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:255
+msgid "优先填平台文档给你的完整地址。只拿到 /v1 也可以，插件会尝试补全。"
+msgstr ""
+
+#. 1: generic OpenAI-compatible base URL example, 2: DeepSeek v1 example, 3: appended endpoint path
+#: templates/admin/sections/engine-openai-compatible.php:58
+#, php-format
+msgid "优先填平台给你的完整接口地址。若你只拿到 %1$s 这种基础地址，比如 %2$s，插件会自动补成 %3$s。最常见的报错之一就是接口地址填错。"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:114
+msgid "优先级说明"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:18
+msgid ""
+"低配服务器（如 1C1G / 2C2G）：全局先试 1–2；Qwen / OpenAI / 兼容 OpenAI / 火山都可先填 0 "
+"继承；若仍然吃资源，再把具体引擎改成 1。"
+msgstr ""
+
+#: templates/router-settings.php:34
+msgid ""
+"作为所有子引擎的默认并发值。子引擎并发填 0 时会继承这里；全局也填 0 时，表示继续使用各引擎自己的内置默认值。低配服务器可先设为 1–"
+"3，中等服务器可先试 4–6。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:232
+msgid "你只需要这样理解"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:11
+msgid "你可以先这样理解整个插件："
+msgstr ""
+
+#: templates/router-settings.php:99
+msgid "你可以只为少数需要单独指定主引擎的文章类型添加规则。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:33
+msgid "你可以把它理解成：不同类型的内容，先交给不同的主引擎。比如商品页优先走某个术语更稳定的引擎，攻略页优先走某个更适合说明文的引擎。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:24
+msgid "你可以把它理解成：不同类型的内容，先交给不同的主引擎处理。比如商品页优先走某个术语更稳定的引擎，案例页优先走另一个更适合长文本润色的引擎。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:21
+msgid "你可以把路由设置理解成“派单规则”。模型设置页是把多个引擎准备好，路由设置页则是决定这次请求先派给谁、失败后要不要改派给别人。"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:51
+msgid "使用微信扫一扫支持作者"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:56
+msgid "使用支付宝扫一扫支持作者"
+msgstr ""
+
+#: templates/admin/sections/engine-openai.php:62
+msgid "例: <code>gpt-4o-mini</code> ，此处填写模型时，将优先使用这里的模型名。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:49
+msgid "例如你可以规定：英文优先走Hunyuan，粤语优先走 DeepL，阿姆哈拉语优先走兼容 OpenAI。"
+msgstr ""
+
+#. 1: OpenAI tab URL, 2: Compatible OpenAI tab URL, 3: DeepL tab URL.
+#: templates/admin/help/content-quickstart.php:24
+#, php-format
+msgid ""
+"例如先进入 <a href=\"%1$s\">OpenAI</a>、<a href=\"%2$s\">兼容 OpenAI</a> 或 <a "
+"href=\"%3$s\">DeepL</a> 标签页，填写必要的密钥、模型和接口参数。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:45
+msgid "例如：provider-model-name"
+msgstr ""
+
+#: templates/admin/sections/engine-openai.php:61
+msgid "例如：gpt-4.1-mini 或其他兼容模型名"
+msgstr ""
+
+#: templates/router-settings.php:180
+msgid "例如：英文 / English / en / en_US / bs_BA"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:77
+msgid "例：<code>ep-xxxxxx|330xxxxx0ee|4800000</code>。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:39
+msgid "例：<code>ep-xxxxxx|330xxxxx0ee|AKLxxZjg|WW1xxxxxUTQ==|4800000</code>。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:62
+msgid ""
+"例：<code>ep-xxxxxx|330xxxxx0ee|AKLxxZjg|WW1xxxxxUTQ==|4800000|chat</code>。"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:59
+msgid "保存后会隐藏 APIKey / AK / SK ，无法复制，修改必须重新输入完整信息。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:218
+msgid "保存后直接翻一篇真实文章测试。能正常翻就先不要碰高级参数。"
+msgstr ""
+
+#: includes/admin/class-admin-page.php:48
+msgid "保存当前模型设置"
+msgstr ""
+
+#: includes/admin/class-admin-page.php:47
+msgid "保存日志设置"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:74
+#: templates/admin/sections/engine-volc.php:61
+msgid "保存时清空当前账号池"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:29
+msgid "保持原来的翻译接入点写法不变即可；如果要额外增加聊天接入点，需加上 chat。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:63
+msgid "做一次真实翻译测试"
+msgstr ""
+
+#: templates/router-settings.php:52 templates/router-settings.php:89
+msgid "停止不翻译"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:58
+msgid "先不要配置文章类型分配、语言分配和回退规则"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:161
+msgid "先判断当前请求是不是单篇内容页。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:216
+msgid "先只填 3 项：API Key、模型名称、接口地址。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:12
+msgid ""
+"先只配置一个你最熟悉、最稳定的引擎，把它设成默认引擎并完成一次成功翻译；成功以后，再给特定语言增加语言分配；最后才加回退规则、文章类型分配和账号池。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:474
+msgid "先在 SSH 里执行："
+msgstr ""
+
+#: templates/admin/help/content-logs.php:65
+msgid "先找同一个 route_id。不要把不同 route_id 的日志混在一起判断。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:136
+msgid "先把这三句记住，再去理解默认引擎、语言分配、回退规则和文章类型分配，基本就不会乱。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:115
+msgid "先检查 API Key 是否有效，再看模型名和超时时间。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:285
+msgid "先用 0。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:290
+msgid "先用 1。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:270
+msgid "先用 2200。若翻译老是半截就加大。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:275
+msgid "先用 2。别设太高，不然会把慢问题放大。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:265
+msgid "先用 4。经常 429、超时、站点吃满 CPU 时，先降到 2。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:260
+msgid "先用 60。文章一长就 timeout，就改 90；还不够再试 120。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:177
+msgid "先确定实际命中了哪个引擎，再判断该引擎本身是否配置正确。很多时候问题不是规则写错，而是密钥、模型名、接口地址或语言支持本身有问题。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:270
+msgid "先确认主引擎本身可用，再配置回退规则。否则你很难判断到底是主引擎问题，还是回退链问题。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:10
+msgid "先记住一个原则："
+msgstr ""
+
+#: templates/admin/help/content-faq.php:11
+msgid "先记住一条总规则："
+msgstr ""
+
+#: templates/admin/help/content-logs.php:22
+msgid "先记住一条："
+msgstr ""
+
+#: templates/admin/help/content-engines.php:424
+msgid "先记住三个前提。"
+msgstr ""
+
+#: templates/admin/help/nav.php:25
+msgid "先跑通单引擎"
+msgstr ""
+
+#: templates/admin/help/nav.php:23
+msgid "先配一个可用引擎"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:508
+msgid "先配一个，再配第二个，不建议一次性把所有引擎都填上。"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:145
+msgid "兜底"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:104
+msgid "兜底服务器错误"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:102
+msgid "兜底权限被拒绝"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:94
+msgid "兜底正常"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:96
+msgid "兜底网络错误"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:106
+msgid "兜底请求失败"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:98
+msgid "兜底请求过快，已冷却"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:100
+msgid "兜底额度用尽，已冷却"
+msgstr ""
+
+#: templates/router-settings.php:54 templates/router-settings.php:88
+msgid "全局规则"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:115
+msgid "全局规则。planned_fallback_chain 里通常会按“语言分配 → 回退规则 → 默认引擎”的顺序列出候选。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:81
+msgid "全局规则：主引擎失败后，继续按“语言分配 → 回退规则 → 默认引擎”的顺序往下尝试。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:82
+msgid "全局规则：文章类型主引擎失败后，继续按“语言分配 → 回退规则 → 默认引擎”的顺序往下尝试。"
+msgstr ""
+
+#: assets/js/router-settings.js:26
+msgid "全局链：语言分配 → 回退规则 → 默认引擎"
+msgstr ""
+
+#: templates/router-settings.php:31
+msgid "全局默认并发"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:27
+msgid "关注作者"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:52
+msgid "具体命中了哪条规则，例如 guides = qwen 或 am = volc。"
+msgstr ""
+
+#: includes/admin/engines/class-openai-compatible-admin-config.php:83
+msgid "兼容 OpenAI"
+msgstr ""
+
+#: includes/admin/class-engine-registry.php:62
+#: includes/admin/class-engine-registry.php:202
+msgid "兼容 OpenAI API"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:88
+#: templates/admin/help/content-engines.php:69
+msgid "兼容旧格式：<code>接入点ID|APIKey|每日上限Tokens</code>。旧格式无法查询官方用量，只能继续依赖本地限额。"
+msgstr ""
+
+#: includes/admin/engines/class-deepl-admin-config.php:26
+#: includes/admin/engines/class-deepl-admin-config.php:53
+msgid "内置 DeepL 账号池与失败切换。"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:106
+msgid "内置桥接类"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:476
+msgid "再执行一条最简单的转换测试，例如："
+msgstr ""
+
+#: templates/admin/help/nav.php:24
+msgid "再选默认引擎"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:135
+msgid "冷却到期"
+msgstr ""
+
+#: templates/admin/sections/engine-openai.php:35
+msgid "创建 OpenAI API Key"
+msgstr ""
+
+#: templates/router-settings.php:50 templates/router-settings.php:64
+#: templates/router-settings.php:93
+msgid "删除"
+msgstr ""
+
+#: templates/admin/sections/logs.php:74
+msgid "删除 / 清空日志文件"
+msgstr ""
+
+#: includes/admin/class-log-actions.php:99
+msgid "删除日志文件失败。"
+msgstr ""
+
+#: includes/admin/class-log-actions.php:97
+msgid "删除日志文件失败，请检查服务器文件权限。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:107
+msgid ""
+"判断有没有真正执行某个引擎，不要只看 configured_language_rule_engine 或 "
+"configured_fallback_rule_engine，而要结合 "
+"selected_engine、route_source、实例化子引擎、开始分发翻译请求和回退决策一起看。"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:116
+msgid "刷新"
+msgstr ""
+
+#: templates/admin/sections/logs.php:72
+msgid "刷新当前日志"
+msgstr ""
+
+#. %s: TranslatePress automatic translation settings URL.
+#: templates/admin/help/content-quickstart.php:45
+#, php-format
+msgid ""
+"前往 <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">"
+"TranslatePress → 自动翻译</a> 页面，在“路由设置”中把刚才配置好的引擎设为默认引擎。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:208
+#: templates/admin/help/content-quickstart.php:129
+msgid "前往 DeepL 设置"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:158
+msgid "前往 Hunyuan 设置"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:196
+#: templates/admin/help/content-quickstart.php:128
+msgid "前往 OpenAI 设置"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:119
+msgid "前往 Qwen 设置"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:417
+msgid "前往兼容 OpenAI API 设置"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:181
+msgid "前往日志标签页"
+msgstr ""
+
+#: templates/router-settings.php:10
+msgid "前往模型设置"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:84
+msgid "前往火山方舟设置"
+msgstr ""
+
+#: templates/admin/page-model-settings.php:38
+msgid "前往翻译设置"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:130
+msgid "前往路由设置"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:286
+msgid "前往路由设置页面"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:24
+#: templates/admin/sections/engine-qwen.php:35
+#: templates/admin/sections/engine-qwen.php:63
+msgid "北京"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:32
+msgid "区域 / Region"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:185
+#: templates/admin/help/content-engines.php:382
+msgid "单条请求基础超时"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:324
+msgid "单条请求基础超时（single_request_timeout_base）：某一大段总是超时，就把它调大一点。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:201
+#: templates/admin/help/content-engines.php:402
+msgid "单条请求最长可等多久"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:383
+msgid "单独处理某个长段时，最少先等多久。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:89
+#: templates/admin/help/content-engines.php:268
+msgid "单请求最大输出 Token"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:245
+msgid "去平台后台复制原值粘贴。保存后页面不回显，后续留空保存会继续沿用旧值。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:39
+msgid "去自动翻译页只设置默认引擎"
+msgstr ""
+
+#: templates/admin/sections/help.php:14
+#: templates/admin/help/content-feedback.php:9
+msgid "反馈和建议"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:86
+msgid "另外，日志里也可能混入语言支持判断、缓存命中、账号池检查或引擎实例化等记录，所以看到某个引擎名，不代表它一定承担了这次最终翻译。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:227
+msgid "只是给你自己做备注，不参与请求。比如可写“日语站专用”“便宜但慢”“容易 429”。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:314
+msgid "只是给你自己做记录。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:404
+msgid "只有你明确知道接口特别慢，才考虑加大。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:220
+msgid "只有平台文档明确给了额外 JSON 参数时再填，比如关闭 thinking 或指定某个特殊字段。这里会覆盖上面同名设置，所以不确定就留空。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:310
+msgid "只有平台文档明确给了额外字段时才填，不确定就留空。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:305
+msgid "只有平台文档明确要求时才填。没要求就留空。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:213
+msgid "只有平台文档明确让你加请求头时再填。一行一个，格式：<code>Header-Name: value</code>。没要求就留空。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai.php:103
+msgid ""
+"可选。用于覆盖或补充 OpenAI 请求体参数，例如 <code>max_tokens</code> 等。当前默认已固定 <code>"
+"temperature=0</code>，并启用“只取译文”解析；请填写合法 JSON 对象；若填写无效，保存时会保留上一次有效值。"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:97
+msgid ""
+"可选。用于附加 Qwen-MT 的高级参数，例如 <code>terms</code>、<code>tm_list</code>、<code>"
+"domains</code> 等；插件会把这里的 JSON 递归合并进请求体。请填写合法 JSON 对象；若填写无效，保存时会保留上一次有效值。"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:126
+msgid ""
+"可选。腾讯官方模型可在这里透传 <code>Field</code>、<code>GlossaryIDs</code>、<code>"
+"References</code> 等参数；<code>hunyuan-mt-7b</code> 则会把这里的 JSON 合并进 OpenAI "
+"兼容请求体。请填写合法 JSON 对象；若填写无效，保存时会保留上一次有效值。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:33
+msgid "号池格式："
+msgstr ""
+
+#: templates/router-settings.php:109
+msgid ""
+"同一文章类型只能出现在一条规则中；同一条规则里可以绑定多个文章类型到同一个引擎。命中文章类型规则后会先走指定引擎；若该引擎不支持目标语言、不可用或翻译失败，再按这里选中的模式继续：默认引擎"
+" / 全局规则（语言分配 → 回退规则 → 默认引擎）/ 失败不翻译。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:49
+msgid "同一次请求的关联编号。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:33
+msgid ""
+"同一次页面翻译，甚至同一篇内容，有时会出现不止一个 "
+"route_id。这并不一定是异常，可能只是同一页里不同来源文本、不同源语言片段，或者不同批次请求被拆开处理。遇到这种情况，要分别按 route_id "
+"阅读，不要混着看。"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:51
+msgid ""
+"同时发起的火山请求数量。填 0 表示继承路由设置里的全局默认并发；如果全局也为 0，则继续使用火山引擎的内置默认值。低配服务器建议先试 1–3。"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:87
+msgid ""
+"同时发起的请求数量。填 0 表示继承路由设置里的全局默认并发；如果全局也为 0，则使用 Qwen 的内置默认值。遇到 429、超时或 CPU "
+"占用过高时，可先降到 1–3。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai.php:96
+msgid "同时发起的请求数量。填 0 表示继承路由设置里的全局默认并发；如果全局也为 0，则继续使用当前模型的内置默认值。低配服务器可先试 1–3。"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:10
+#: templates/admin/sections/engine-qwen.php:9
+#: templates/admin/sections/logs.php:13
+#: templates/admin/sections/engine-openai-compatible.php:27
+#: templates/admin/sections/engine-deepl.php:57
+#: templates/admin/sections/engine-hunyuan.php:9
+#: templates/admin/sections/engine-volc.php:42
+#: templates/admin/sections/engine-openai.php:9
+#: templates/admin/help/content-engines.php:238
+#: assets/js/admin-language-query.js:200
+msgid "启用"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:59
+msgid "启用 DeepL 子引擎"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:11
+msgid "启用 Hunyuan 子引擎"
+msgstr ""
+
+#: templates/admin/sections/engine-openai.php:11
+msgid "启用 OpenAI 子引擎"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:11
+msgid "启用 Qwen 子引擎"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:29
+msgid "启用兼容 OpenAI API 子引擎"
+msgstr ""
+
+#: templates/admin/sections/logs.php:15
+msgid "启用文件日志"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:44
+msgid "启用火山方舟子引擎"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:12
+msgid "启用该模型配置"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:60
+msgid "命中文章类型规则后，先尝试该条规则指定的主引擎；如果该主引擎不能继续，则直接停止，不再继续走语言分配、回退规则或默认引擎。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:102
+msgid "命中文章类型规则后，先尝试该条规则指定的主引擎；如果该主引擎不能继续，则继续按“语言分配 → 回退规则 → 默认引擎”的顺序往下尝试。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:81
+msgid "命中文章类型规则后，先尝试该条规则指定的主引擎；如果该主引擎不能继续，则跳过语言分配和回退规则，直接尝试默认引擎。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:105
+msgid "命中的文章类型规则对应哪个引擎。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:217
+msgid "回到设置页，点击“套用推荐起步参数”。"
+msgstr ""
+
+#. %s: Fallback engine display name.
+#: includes/class-router-engine.php:556
+msgid "回退决策"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:39
+#, php-format
+msgid "回退到默认引擎 %s，开始批量翻译"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:21
+#, php-format
+msgid "回退引擎 %1$s 不支持 %2$s 语言，无法继续回退。"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:23
+#, php-format
+msgid "回退引擎 %1$s 不支持源语言 %2$s，无法继续回退。"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:37
+#, php-format
+msgid "回退引擎 %1$s 未通过预检查，继续尝试下一个候选 %2$s。"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:41
+#, php-format
+msgid "回退引擎 %1$s 返回空结果，继续尝试下一个候选 %2$s。"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:25
+#, php-format
+msgid "回退引擎 %s 当前不可用，无法继续回退。"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:29
+#, php-format
+msgid "回退引擎 %s 预检查未通过，无法继续回退。"
+msgstr ""
+
+#. %s: Default engine label.
+#: includes/class-router-engine.php:652
+msgid "回退引擎执行完成"
+msgstr ""
+
+#: templates/router-settings.php:156
+msgid "回退规则"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:124
+msgid "回退规则不是每次都执行，只有当前链路不能继续时才会触发。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:49
+msgid ""
+"回退规则只有在前面的主引擎不能继续时才会生效。这里的“不能继续”包括：引擎不可用、不支持目标语言、请求失败、返回空结果，或者其他导致当前链路无法完成翻译的情况。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:63
+msgid ""
+"回退规则是“主引擎不能继续时，接下来尝试谁”的规则。它不是每次都执行，只有主引擎不可用、不支持目标语言、返回空结果、翻译失败，或者因为其他原因无法继续时，才会进入这一层。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:144
+msgid "回退规则的格式与语言分配相同，但它不是主路由，而是“主引擎或前面链路不能继续时的后备规则”。主引擎成功时，不会进入回退链路。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:146
+msgid ""
+"因为“发生了回退”不等于“回退一定成功”。如果回退引擎本身也不支持目标语言、不可用，或者请求仍然失败，那么整条链即使继续往后尝试，也可能最终没有翻译结果。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:168
+msgid ""
+"因为“没有翻译结果”不一定等于“接口抛出了明显错误”。有些情况是在真正发请求前就被预检查拦下了，例如目标语言不支持；也有些情况是请求成功返回了 "
+"200，但实际没有拿到有效译文。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:117
+msgid ""
+"因为“进入了回退链”不等于“回退一定会成功”。如果回退引擎本身也不支持目标语言、不可用或请求失败，那么即使回退规则被触发了，最终仍然可能没有翻译结果。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:83
+msgid ""
+"因为一旦默认引擎、文章类型分配、语言分配、回退规则同时存在，你在页面上看到的现象就不一定来自你以为的那一层。很多新人以为“当前走的是默认引擎”，实际可能已经被文章类型规则或语言分配拦截了。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:85
+msgid ""
+"因为一次请求可能不只经过一个引擎。最常见的情况是：先尝试主引擎，主引擎失败后再尝试回退引擎，最后再尝试默认引擎。这样同一个 route_id "
+"下面就会连续出现多个引擎。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:130
+msgid "因为一次请求可能经历主引擎、回退引擎，最后再到默认引擎兜底；另外也可能混入语言支持查询、缓存命中、账号池检查、引擎实例化等记录。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:164
+msgid ""
+"因为同一页里的不同文本片段，来源语言不一定完全一致。日志里的 source_language 表示这次批次在发起翻译时，系统识别或记录到的源语言。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:35
+msgid "因为文章类型规则的优先级高于语言分配。只要当前请求是单篇内容页，并且它的文章类型命中了规则，就会优先使用文章类型里指定的主引擎。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:106
+msgid ""
+"因为日志里有些字段只是“配置快照”，不是“实际执行结果”。例如 configured_language_rule_engine "
+"表示当前目标语言在语言分配里配置的是哪个引擎，但如果这次请求先命中了文章类型规则，并且文章类型规则不允许继续全局规则，那么这个配置虽然会出现在日志里，却不会真正执行。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:94
+msgid ""
+"因为有些字段只是“配置快照”，不是“实际执行结果”。例如 configured_language_rule_engine "
+"表示当前目标语言在语言分配里配置的是哪个引擎，它告诉你“配置里写了谁”，但不等于“这次请求就一定真的执行了谁”。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:16
+msgid "因为默认引擎只是兜底引擎，不是“永远先走它”的引擎。只要当前请求命中了更高优先级规则，就会优先走更高优先级的那个引擎。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:165
+msgid ""
+"因此，同一篇内容在不同 route_id 里出现不同 source_language，并不一定是异常。排查时还是要优先看每个 route_id "
+"的完整执行链，而不是单独盯某一个 source_language 字段。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:463
+msgid "在 Dockerfile 里直接安装 opencc，并确保 PHP 运行用户可执行该命令。"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:21
+msgid "在 WordPress 社区提问、交流使用经验，获取更多帮助。"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:60
+#: templates/admin/sections/engine-hunyuan.php:92
+msgid "地域"
+msgstr ""
+
+#: templates/admin/sections/help.php:9
+#: templates/admin/help/content-concepts.php:6
+msgid "基本概念"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:36
+msgid "填你这个平台给你的密钥。不会填别猜，去平台后台原样复制。"
+msgstr ""
+
+#. %1$s: Link to create an OpenAI API key.
+#: templates/admin/sections/engine-openai.php:23
+#, php-format
+msgid "填写 OpenAI 官方 API Key，%1$s。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:46
+msgid "填平台文档要求的模型名，必须一字不差。填错模型名，请求通常会直接失败。"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:61
+#: templates/admin/sections/engine-qwen.php:107
+#: templates/admin/sections/engine-openai-compatible.php:224
+#: templates/admin/sections/engine-deepl.php:98
+#: templates/admin/sections/engine-hunyuan.php:130
+#: templates/admin/sections/engine-openai.php:107
+#: templates/admin/help/content-engines.php:313
+msgid "备注"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:225
+msgid ""
+"大多数人接第三方兼容接口，先用这套就够了。只有出现“文章一长就超时”“经常 429”“翻译被截断”“模型太会发挥”这类问题时，才需要继续往下调。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:113
+msgid "失败不翻译。planned_fallback_chain 通常为空，fallback_engine 也通常为空。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:79
+msgid "失败不翻译：主引擎失败后直接停止，不再继续后续链路。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:80
+msgid "失败不翻译：文章类型主引擎失败后，直接停止，不再进入语言分配、回退规则或默认引擎。"
+msgstr ""
+
+#: assets/js/router-settings.js:24
+msgid "失败即停止"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:274
+msgid "失败后再试几次。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:99
+msgid "失败后再试几次。偶发报错有用，但别设太高。新手用 2 就行。"
+msgstr ""
+
+#: templates/router-settings.php:63
+msgid "失败后回退"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:57
+msgid "失败类型，例如 unsupported_target_language、empty_result、auth_error 等。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:18
+msgid "套用推荐起步参数"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:132
+#: templates/admin/help/content-logs.php:161
+msgid "如果 volc 不支持 am，而 hunyuan 也不支持 am，那么这条链虽然发生了回退，但最终仍然会失败。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:510
+msgid "如果一个引擎只准备拿来给某个语言做专用分配，也建议先单独验证它本身可用。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:166
+msgid "如果一开始就没有命中文章类型规则，则直接进入语言分配；语言分配不命中或不能继续时，再看回退规则，最后落到默认引擎。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:69
+msgid ""
+"如果主引擎失败，再看 fallback_mode、planned_fallback_chain、fallback_engine 和 "
+"fallback_source。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:50
+msgid "如果主引擎成功了，那就不会进入回退规则。回退规则不是主路由，它只是失败后的后备链路。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:455
+msgid "如果仓库里没有，可能要先启用额外仓库，或自行编译安装。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:138
+msgid "如果以后还会继续增加引擎，当前结构好维护吗？"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:54
+msgid ""
+"如果你仍然在日志里看到了别的引擎，通常说明是下面几种情况之一：第一，当前请求根本没有命中文章类型规则；第二，你看的不是同一个 "
+"route_id；第三，看到的是别的请求、语言支持检查或其他辅助日志，而不是这次主链路的结果。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:129
+msgid "如果你刚接触这个插件，可以先只记住下面这三句话："
+msgstr ""
+
+#: templates/admin/help/content-engines.php:194
+msgid "如果你只是想先确认整个插件能工作，优先推荐先配 OpenAI。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:140
+msgid "如果你后续继续扩展路由能力，也建议保持现在这种“先命中、再失败分支、再回退链”的清晰结构，并让日志字段保持稳定。这样以后排查会轻松很多。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:35
+msgid ""
+"如果你已经确认Hunyuan、火山或 Qwen "
+"的账号可用，也可以先用它们，但建议第一轮先选你最熟的一条链路。第一轮的目标不是“功能最全”，而是“先成功一次”。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:114
+msgid "如果你已经确认路由命中的是正确引擎，但翻译仍然失败，就不要再纠结路由规则，而应直接看该引擎本身的运行日志、响应内容和失败类型。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:124
+msgid ""
+"如果你希望某类内容必须只走指定主引擎，就选“失败不翻译”；如果你希望失败后还能自动兜底，一般选“仅默认引擎”或“全局规则”。其中“全局规则”最灵活，但排查时也最复杂。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:68
+msgid ""
+"如果你怀疑文章类型分配没有生效，就重点看 post_type_rule_found、post_type_rule_lookup_reason 和 "
+"available_post_type_rule_keys。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:156
+msgid "如果你把某个语言分配给Hunyuan，但Hunyuan密钥本身无效，那么问题不是路由，而是凭证。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:214
+msgid "如果你看不懂参数，就按这个最省事的流程来。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:117
+msgid "如果你计划给某些语言做专门分配，先做一次真实翻译测试，再决定是否分流。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:17
+msgid "如果你还在第一轮测试，建议把当前唯一已经验证成功的引擎设为默认引擎。这样最稳，也最容易排查问题。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:21
+msgid "如果出现 429、超时、CPU 持续高、内存顶满，优先先降并发，而不是先怀疑路由逻辑。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:496
+msgid "如果只有“未执行”或“当前请求类型不支持前台整页转换”，那通常是访问的不是普通前台页面，或者当前页面语言没有命中繁体处理规则。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:205
+msgid "如果启用了账号池，日志中会出现候选 key 选择、尝试条目等记录，这通常是正常现象。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:164
+msgid "如果失败模式是“仅默认引擎”，主引擎不能继续时，直接尝试默认引擎。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:165
+msgid "如果失败模式是“全局规则”，主引擎不能继续时，再继续判断语言分配、回退规则和默认引擎。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:69
+msgid "如果失败，先看日志，不要立刻乱改规则"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:272
+msgid "如果文章类型规则选的是“失败不翻译”，那么即使语言分配和回退规则里写得再完整，也不会继续进入这些后续链路。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:155
+msgid "如果日志出现 AuthFailure.SecretIdNotFound、SignatureFailure 等错误，通常就是凭证或权限有问题。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:162
+msgid "如果是，并且命中了文章类型规则，就先使用该文章类型指定的主引擎。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:481
+msgid "如果服务器已安装，但网站里还是不生效，优先查这几项"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:29
+msgid "如果没有启用日志，后面的路由命中、回退决策、失败类型和最终状态都无法快速确认。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:53
+msgid "如果真的命中了文章类型规则，并且该规则的失败模式是“失败不翻译”，那么主引擎失败后就不会继续走语言分配、回退规则或默认引擎。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:475
+msgid "如果能返回路径，例如"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:163
+msgid "如果该文章类型规则的失败模式是“失败不翻译”，主引擎不能继续时，直接停止。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:477
+msgid "如果输出类似“簡體中文測試”，说明 opencc 命令本身没问题。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:95
+msgid ""
+"如果这次请求先命中了文章类型规则，并且文章类型规则的失败模式是“失败不翻译”，那么即使 configured_language_rule_engine "
+"显示的是 volc，实际也不会进入 volc。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:59
+msgid ""
+"如果默认引擎本身都还没有成功翻译，继续叠加文章类型规则、语言分配和回退规则，只会让问题更难定位。第一轮最重要的是确认“最简单的一条链路”已经能通。"
+msgstr ""
+
+#: includes/class-engine-manager.php:25
+msgid "子引擎已禁用，跳过实例化"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:435
+msgid "它不会把英文、德语、法语翻成中文；它只处理中文简繁和地区用字差异。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:331
+msgid "它到底在管什么"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:436
+msgid "它处理的是前台最终 HTML，所以更像“显示层转换”，不是数据库翻译入库。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:434
+msgid "它是“简体转繁体/地区繁体用字转换”工具，不是 LLM，不会自动润色或重写句子。"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:128
+msgid "安全阈值"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:80
+msgid "安全阈值：Tokens最大限制，需为纯数字，达到阈值后将停止使用接入点，所有接入点都达到阈值时，引擎自动停止。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:472
+msgid "安装后怎么确认是否真的可用"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:124
+msgid "官方 InputTokens"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:125
+msgid "官方 OutputTokens"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:126
+msgid "官方 TotalTokens"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1132
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1471
+msgid "官方同步失败，按本地控量"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:151
+msgid "官方并非实时同步，同时间为 1 ~ 4 小时，需等官方同步后，此处才会同步。当前表格按接入点逐条显示。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai.php:45
+msgid "官方模型"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1378
+msgid "官方用量返回结构无法解析。"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:127
+msgid "官方请求数"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1135
+msgid "官方限流，按本地控量"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1475
+msgid "官方限流，稍后重试"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:466
+msgid "宝塔 / 面板环境"
+msgstr ""
+
+#: includes/class-engine-manager.php:30
+msgid "实例化子引擎"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:415
+msgid "实在看不懂：重新套用推荐起步参数，一次只改一个值，再看日志。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:52
+msgid "实操理解："
+msgstr ""
+
+#: includes/engines/class-trp-client-adapter-machine-translator-base.php:39
+msgid "客户端适配器丢弃可疑翻译结果"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:95
+msgid ""
+"对新人来说，最小链路跑通通常指的是：你只配置了一个引擎，把它设成默认引擎，不使用文章类型分配、语言分配和回退规则，然后做一次真实翻译测试，并且成功拿到有效译文。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:19
+msgid ""
+"对这类带多引擎、多规则、多层回退的插件来说，日志是排错效率最高的入口。先确认日志里“这次请求到底命中了谁、为什么继续、为什么停止”，再去猜配置问题，速度会快很多。"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:67
+msgid "将自动使用该地域对应的官方兼容接口地址。"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:104
+msgid "尚未命中有效接入点"
+msgstr ""
+
+#. 1: Requested fallback engine slug, 2: Default engine slug.
+#: includes/class-router-engine.php:625
+msgid "尝试回退引擎"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:239
+msgid "就是开关。勾上后，这个兼容 OpenAI 引擎才会参与翻译或路由。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:269
+msgid "尽量一行一个规则，不要把多个规则写在同一行。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:134
+msgid "展开高级参数（只有遇到长文超时、HTML 大段落慢、429 时再看）"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:201
+msgid ""
+"左侧序号就是号池中的位置序号；运行状态里的“序号”会和号池保持一致。序号数量会跟随当前账号池总行数变化，滚动输入框时左侧序号也会同步滚动。号池输入框显示的是隐藏后的已保存账号池，中间字符会被星号替换，因此无法从页面复制出原始"
+" Key。直接保存会保留原值；如需修改，请在输入框里全选后粘贴<strong>完整的新账号池</strong>并保存。"
+msgstr ""
+
+#: assets/js/admin-language-query.js:116 assets/js/admin-language-query.js:229
+msgid "已启用"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:273
+msgid "已套用兼容 OpenAI 的推荐起步参数。请记得点击页面底部的“保存设置”。"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:107
+msgid "已就绪"
+msgstr ""
+
+#: templates/router-settings.php:55
+msgid "已无可添加"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1139
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1154
+msgid "已达安全阈值"
+msgstr ""
+
+#: includes/admin/class-engine-registry.php:78
+msgid "帮助"
+msgstr ""
+
+#: templates/admin/help/nav.php:9
+msgid "帮助目录"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:43
+msgid "常见不会按文章类型规则处理的场景：文章列表页、分类归档页、标签页、搜索结果页、首页聚合流。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:42
+msgid "常见会命中文章类型规则的场景：单篇文章页、单个页面、单个商品页、单条自定义文章类型详情页。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:46
+msgid "常见会生效的场景：单篇文章页、单个页面、单个商品页、单个作品页、单条自定义文章类型详情页。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:445
+msgid "常见安装示例"
+msgstr ""
+
+#: templates/admin/sections/help.php:13 templates/admin/help/content-faq.php:6
+msgid "常见问题"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:409
+msgid "常见问题直接照着改"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:206
+msgid "并不是所有语言都一定适合 DeepL，建议结合日志确认目标语言是否支持。"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:84
+#: templates/admin/sections/engine-openai-compatible.php:82
+#: templates/admin/sections/engine-hunyuan.php:116
+#: templates/admin/sections/engine-volc.php:48
+#: templates/admin/sections/engine-openai.php:93
+#: templates/admin/help/content-engines.php:263
+msgid "并发数"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:15
+msgid "并发设置怎么填"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:130
+msgid "序号"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:64
+msgid "建议先找一个文本不太复杂、结构也不太复杂的页面测试。只要确认能正常出结果，就说明最小链路已经通了。"
+msgstr ""
+
+#: templates/admin/help/nav.php:21
+msgid "建议顺序"
+msgstr ""
+
+#: templates/admin/sections/engine-openai.php:55
+msgid ""
+"建议默认先用 <code>gpt-4o-mini</code> 或 <code>gpt-4.1-mini</code>"
+"。若下拉列表没有你要的官方模型，可在下面“自定义模型”直接填写。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:123
+msgid "建议："
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:853
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1117
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1127
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1458
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1467
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1487
+msgid "异常"
+msgstr ""
+
+#: langrouter-for-translatepress.php:383 assets/js/admin-language-query.js:194
+msgid "引擎"
+msgstr ""
+
+#: templates/admin/sections/help.php:10
+#: templates/admin/help/content-engines.php:6
+msgid "引擎配置"
+msgstr ""
+
+#: assets/js/admin-language-query.js:142 assets/js/admin-language-query.js:222
+msgid "当前"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:12
+msgid "当前优先级是：文章类型主引擎 → 语言分配 → 回退规则 → 默认引擎。文章类型分配仅对单篇内容页生效。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:11
+msgid "当前优先级："
+msgstr ""
+
+#: templates/router-settings.php:212
+msgid "当前优先级：<strong>文章类型主引擎 → 语言分配 → 回退规则 → 默认引擎</strong>。文章类型分配仅对单篇内容页生效。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:30
+msgid "当前实现会优先选择翻译接入点；当翻译接入点不可用、请求失败，或当前语言不在翻译模型支持范围内时，再自动回退到聊天接入点。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:102
+msgid "当前对象的文章类型，例如 guides、product、post。"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:45
+#: templates/admin/sections/engine-openai-compatible.php:38
+#: templates/admin/sections/engine-openai.php:40
+msgid "当前已保存 API Key。为了避免泄露，这里不会显示；留空保存会继续沿用当前密钥。"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:56
+msgid "当前已保存 SecretId / API Key。为了避免泄露，这里不会显示；留空保存会继续沿用当前密钥。"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:87
+msgid "当前已保存 SecretKey。为了避免泄露，这里不会显示；留空保存会继续沿用当前密钥。"
+msgstr ""
+
+#: assets/js/admin-language-query.js:133 assets/js/admin-language-query.js:152
+msgid "当前引擎下支持该语言的模型："
+msgstr ""
+
+#: templates/admin/help/content-logs.php:140
+msgid "当前引擎不支持该目标语言。后面是否继续，要看当前链路的失败模式和回退设置。"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2408
+msgid "当前接入点已达到安全阈值，已停止继续消耗。"
+msgstr ""
+
+#: templates/admin/sections/logs.php:86
+msgid "当前文件较大，已只显示尾部内容。"
+msgstr ""
+
+#: includes/admin/class-log-actions.php:76
+msgid "当前日志文件已清空。若仍有新请求写入日志，文件会再次出现内容。"
+msgstr ""
+
+#: templates/admin/sections/logs.php:40
+msgid "当前未启用文件日志。启用后并重新触发一次前台翻译，才会显示可查看的日志文件。"
+msgstr ""
+
+#: templates/router-settings.php:106
+msgid "当前没有可用于路由的公开文章类型。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:139
+msgid ""
+"当前版本已经把帮助模板、引擎注册、模型配置、路由规则和运行时工厂做了拆分，比早期版本更容易维护。后面新增引擎时，建议继续按现有结构补充配置类、模板、注册信息和运行时实现。"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2555
+msgid "当前语言不在火山翻译模型支持范围内，且聊天模型兜底也未成功。"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:100
+msgid "当前轮转接入点："
+msgstr ""
+
+#: templates/admin/help/content-logs.php:106
+msgid "当前运行时可用的文章类型规则键。可以用它确认 guides、product 等规则是不是真的进入了运行时配置。"
+msgstr ""
+
+#. %s: Link to the TranslatePress automatic translation settings page.
+#: templates/admin/sections/logs.php:47
+#, php-format
+msgid ""
+"当前还没有生成任何日志文件。请先启用文件日志，然后重新触发一次前台翻译或前往 <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">TranslatePress 自动翻译设置</a> 执行测试。"
+msgstr ""
+
+#: assets/js/admin-language-query.js:184
+msgid "当前这 4 个翻译引擎下未找到支持项。"
+msgstr ""
+
+#: assets/js/admin-language-query.js:105
+msgid "当前选择："
+msgstr ""
+
+#: assets/js/admin-language-query.js:198
+msgid "当前配置"
+msgstr ""
+
+#. %s: Current model tab label.
+#: templates/admin/sections/generic-engine.php:6
+#, php-format
+msgid "当前页面只显示 <strong>%s</strong> 的设置项。其他模型通过上方导航切换，避免所有字段堆在同一页。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:77
+msgid "当文章类型分配命中后，还可以决定“这个文章类型的主引擎失败时，后面怎么继续”。当前常见有三种模式：失败不翻译、仅默认引擎、全局规则。"
+msgstr ""
+
+#. %s: Comma-separated engine slugs.
+#: templates/router-settings.php:164
+#, php-format
+msgid ""
+"当语言分配或文章类型主引擎不能继续时，按这里的一行一条规则继续尝试，格式：<code>bs_BA = deepl</code>。引擎标识：<code>"
+"%s</code>。"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:855
+msgid "待重试"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:279
+msgid "很多很短的小句子时，插件会先拼一拼再翻，减少请求数。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:25
+msgid ""
+"很多新人最容易误解这里，以为把 OpenAI 设成默认引擎后，所有请求都会先走 "
+"OpenAI。其实不是。默认引擎只是最后兜底，前面如果有文章类型规则、语言分配或回退规则命中，它都会排在后面。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:173
+msgid "很多时候问题不是规则写错，而是命中的引擎本身不支持该语言，或者引擎配置本身有问题。先看清“命中了谁”，比一上来就反复改规则更省时间。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:389
+msgid "很长的段落仍然来不及返回时再改。"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:35
+msgid "微信公众号"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:34
+msgid "微信公众号二维码"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:50
+msgid "微信打赏"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:49
+msgid "微信打赏二维码"
+msgstr ""
+
+#: templates/admin/sections/help.php:8
+#: templates/admin/help/content-quickstart.php:6
+msgid "快速开始"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:11
+msgid ""
+"感谢你使用 LangRouter for TranslatePress。若在使用过程中遇到问题、发现 Bug，或有功能建议，欢迎通过下面的方式与我们联系。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:394
+msgid "慢模型、慢网关才需要改。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:474
+msgid "或"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:64
+msgid "所以回退规则的作用，不是替代主引擎，而是在主引擎失败时提供后备链路。主引擎成功时，不会触发回退。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:46
+msgid ""
+"所以如果你给 guides 配了 Qwen，但你是在 guides 列表页、搜索结果页或归档页测试，看到的就可能不是 Qwen，而是语言分配或默认引擎。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:48
+msgid ""
+"所以如果你给 product 配了引擎，但在商品归档页、商品列表模块或搜索结果页测试时没有按 product "
+"规则走，很多时候并不是设置错误，而是因为当前页面不属于单篇内容页上下文。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:421
+msgid ""
+"所以它适合解决的是：你不想把 zh_TW / zh_HK / zh_Hant 单独送进机器翻译，也不想往 TranslatePress "
+"翻译表里写入这些繁体结果，而是希望前台访问时直接把最终页面转换为繁体。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:84
+msgid ""
+"所以快速开始的核心不是“把功能全部配置完”，而是“先确认最简单的主链路已经成功，再一层层往上加”。这样每加一步，你都知道问题是从哪一步开始出现的。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:89
+msgid ""
+"所以日志里如果出现“开始选择候选 key”“候选 key 数量”“跳过当前 "
+"key”一类记录，多半和账号池有关。它不一定表示路由选错了引擎，只表示这个引擎内部正在从多个凭证里继续挑选可用候选。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:131
+msgid ""
+"所以看到 "
+"DeepL、Qwen、Hunyuan或火山同时出现在同一组日志里，不代表它们都真正承担了翻译任务。它们可能只是被尝试过、被跳过、被预检查过，或者只是作为回退候选被记录。"
+msgstr ""
+
+#: assets/js/admin-language-query.js:164 assets/js/admin-language-query.js:180
+msgid "所有支持该语言的模型："
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:36
+msgid "扫码关注公众号"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:145
+#: templates/admin/help/content-engines.php:347
+msgid "批量标签输出上限"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:344
+msgid "批量经常超时就调小。平时别动。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:339
+msgid "批量结果容易乱、容易超时就调小。平时别动。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:348
+msgid "批量翻译时给结果打标记所允许的输出上限。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:121
+msgid "把某个引擎设成默认引擎，不代表所有请求都会先走它。"
+msgstr ""
+
+#: templates/router-settings.php:62
+msgid "指定引擎"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:250
+msgid "按平台文档一字不差填写。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:98
+msgid "排查文章类型分配时，不要只看后台界面里有没有选中某个文章类型，而要看运行时日志是不是确认命中了。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:90
+msgid ""
+"排查时不要只看“出现了哪个引擎名”，而要优先看同一个 route_id 下的 "
+"selected_engine、route_source、fallback_source 和 final_engine。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:93
+msgid "排查路由问题时，建议优先按下面这组顺序看日志。这样最快判断到底是规则没命中，还是命中了但失败后走了别的链路。"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:121
+msgid "接入点 ID"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:153
+msgid "接入点同步诊断"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:122
+msgid "接入点名称 / 模式"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:115
+msgid "接入点官方用量概览"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:16
+#: templates/admin/sections/engine-openai-compatible.php:50
+#: templates/admin/help/content-engines.php:253
+msgid "接口地址"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:284
+msgid "控制“自由发挥”程度。翻译通常越低越稳。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:92
+msgid "控制模型这一次最多吐多少内容。翻到一半被截断就加大；没遇到截断就保持 2200。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:16
+msgid ""
+"推荐起步值已经内置好了：<code>timeout=60</code>、<code>concurrency=4</code>、<code>"
+"max_tokens=2200</code>、<code>retry=2</code>、<code>长文本阈值=1800</code>、<code>"
+"长文本切块=1200</code>、<code>长 HTML 切块=1600</code>。你不需要背这些，点按钮套用就行。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:222
+msgid "推荐起步参数是什么"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:24
+msgid ""
+"推荐起步示例：<code>全局=2，OpenAI=0，Qwen=0，Hunyuan=0，Volc=0，兼容 OpenAI=0</code>"
+"。这代表先全部继承全局。如果你只想单独提高火山，可把它改成 <code>Volc=4</code>，其他保持 <code>0</code>。"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:17
+msgid "提交 Bug、功能建议，或查看已知问题与更新进展。"
+msgstr ""
+
+#: templates/router-settings.php:223
+msgid ""
+"提示：当当前引擎为 Router 时，TranslatePress 的 <strong>测试 API 凭据</strong> "
+"按钮现在会优先尝试测试默认子引擎；如果仍显示 <code>router-ok ...</code>，表示 Router "
+"已接管，但未能执行更深的子引擎联通性测试。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:490
+msgid "插件日志里看到什么，才算 OpenCC 生效"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:55
+msgid "支付宝打赏"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:54
+msgid "支付宝打赏二维码"
+msgstr ""
+
+#: assets/js/admin-language-query.js:56
+msgid "支持"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:42
+msgid "支持作者"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:509
+msgid "改完某个引擎后，最好立刻做一次真实翻译测试。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:228
+msgid ""
+"效果：guides 单篇详情页先走 Qwen；如果 Qwen 不支持当前目标语言、不可用或翻译失败，则直接停止，不会再尝试 volc、hunyuan "
+"或默认的 DeepL。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:264
+msgid ""
+"效果：guides 单篇详情页先走 Qwen；如果 Qwen 不能继续，则先尝试 volc，再尝试 hunyuan，最后尝试默认的 DeepL。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:246
+msgid "效果：商品详情页先走 DeepL；如果 DeepL 不能继续，则跳过Hunyuan和火山，直接尝试默认的 OpenAI。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:195
+msgid "效果：大多数语言仍走 OpenAI；英文优先走Hunyuan，粤语优先走 DeepL。没有命中语言分配时，最后走 OpenAI。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:182
+msgid "效果：所有请求最后都走 OpenAI。这是最简单、最容易排查的起步配置。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:210
+msgid "效果：英文优先走Hunyuan；如果Hunyuan不能继续，则尝试火山；如果火山仍不能继续，最后再尝试默认的 OpenAI。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:388
+msgid "文本越长，按这个步长继续给单条请求加等待时间。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:411
+msgid ""
+"文章一长就 timeout：先把 timeout 改 90，再把 concurrency 改 "
+"2；还不行，再把“超过多少字开始切段”和“普通长文每段多大”都调小一点。"
+msgstr ""
+
+#: templates/router-settings.php:61
+msgid "文章类型"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:12
+msgid "文章类型主引擎 → 语言分配 → 回退规则 → 默认引擎。文章类型分配仅对单篇内容页生效。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:54
+msgid "文章类型主引擎失败后允许怎么继续，例如 none、default_only、global_chain。"
+msgstr ""
+
+#: templates/router-settings.php:38
+msgid "文章类型分配"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:90
+msgid "文章类型分配只对单篇内容页生效。不要用列表页、归档页或搜索结果页去判断文章类型规则有没有命中。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:271
+msgid "文章类型分配只对单篇内容页生效，不要用列表页、归档页或搜索结果页去判断文章类型规则有没有命中。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:123
+msgid "文章类型分配只对单篇内容页生效，不要用列表页、归档页或搜索结果页来判断它有没有命中。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:32
+msgid ""
+"文章类型分配是“按内容类型指定主引擎”。当当前翻译请求来自某个单篇内容对象，并且它的文章类型命中了你配置的规则时，Router 会优先使用这里指定的引擎。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:23
+msgid ""
+"文章类型分配是“按内容类型指定主引擎”。当当前翻译请求来自某个单篇内容对象，并且该对象的文章类型命中了你配置的规则时，Router "
+"会优先使用这里指定的引擎。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:57
+msgid ""
+"文章类型分配：\n"
+"  guides -> qwen（失败不翻译）\n"
+"\n"
+"语言分配：\n"
+"  am = volc\n"
+"\n"
+"回退规则：\n"
+"  am = hunyuan\n"
+"\n"
+"默认引擎：\n"
+"  deepl"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:37
+msgid ""
+"文章类型分配：\n"
+"  product -> deepl\n"
+"  guides -> qwen"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:27
+msgid ""
+"文章类型：post、page\n"
+"指定引擎：openai\n"
+"\n"
+"文章类型：product\n"
+"指定引擎：deepl\n"
+"\n"
+"文章类型：guides\n"
+"指定引擎：qwen"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:27
+#: templates/admin/sections/engine-qwen.php:38
+#: templates/admin/sections/engine-qwen.php:64
+msgid "新加坡"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:15
+msgid ""
+"新手只要先做 3 件事：填 API "
+"Key、填模型名称、填接口地址；然后点“套用推荐起步参数”；最后保存并实际翻一篇文章测试。能正常翻译就先别动下面那些参数。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:134
+msgid "新手最推荐的起步方式是什么？"
+msgstr ""
+
+#: includes/admin/class-engine-registry.php:72
+msgid "日志"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:92
+msgid "日志不是普通设置项，而是排错入口。它会告诉你本次请求命中了哪一层规则、实际先走了哪个引擎、有没有继续回退、失败原因是什么、最终停在了哪里。"
+msgstr ""
+
+#: templates/admin/sections/help.php:12 templates/admin/help/content-logs.php:6
+msgid "日志与排错"
+msgstr ""
+
+#: templates/admin/sections/logs.php:81
+msgid "日志内容"
+msgstr ""
+
+#: templates/admin/sections/logs.php:59
+msgid "日志文件"
+msgstr ""
+
+#: includes/admin/class-log-actions.php:94
+msgid "日志文件不存在，可能已被删除。"
+msgstr ""
+
+#: templates/admin/sections/logs.php:30
+msgid "日志文件名与日志行时间会优先跟随 WordPress 后台时区；若 WordPress 未设置时区，则回退到当前 PHP 时区。"
+msgstr ""
+
+#: includes/admin/class-log-actions.php:72
+msgid "日志文件已删除。"
+msgstr ""
+
+#: includes/admin/class-log-actions.php:95
+msgid "日志文件或日志目录不可写，无法删除。"
+msgstr ""
+
+#: includes/admin/class-log-actions.php:98
+msgid "日志文件操作后仍然存在，可能被新的请求重新创建。请先暂停日志写入后再试。"
+msgstr ""
+
+#: includes/admin/class-log-actions.php:157
+msgid "日志文件无法读取，无法下载。"
+msgstr ""
+
+#. %s: Absolute log directory path.
+#: templates/admin/sections/logs.php:21
+#, php-format
+msgid "日志目录：<code>%s</code>"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:11
+msgid ""
+"日志选项统一管理插件文件日志开关，并直接查看插件日志目录中的最近日志文件。日志目录会自动写入访问保护文件，且正文、预览、密钥等敏感字段会按安全模式脱敏记录。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:125
+msgid "日志里出现某个引擎名，不一定表示这次主请求就是先走了它。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:133
+msgid "日志页是出了问题后最快的排错入口。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:103
+msgid "是否命中了文章类型规则。1 表示命中，0 表示没有。"
+msgstr ""
+
+#: assets/js/admin-language-query.js:202
+msgid "是否支持"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:53
+msgid "是否真的命中了文章类型规则。判断“文章类型分配有没有生效”时很重要。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:487
+msgid "是否真的把“繁体中文处理方式”切成了 OpenCC 处理。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:358
+msgid "普通长文本切成多大的小段。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:153
+#: templates/admin/help/content-engines.php:357
+msgid "普通长文每段多大"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:323
+msgid "普通长文每段多大（long_text_chunk_chars）：长段落还是慢，就把它调小一点。"
+msgstr ""
+
+#: assets/js/admin-language-query.js:63
+msgid "暂时无法校验"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:123
+msgid "暂时还没有运行记录。保存设置后，触发一次 DeepL 翻译，即可看到状态。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:373
+msgid "更长的第二档文本再进一步压并发。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:100
+msgid "最关键的几个字段是："
+msgstr ""
+
+#: templates/admin/help/content-logs.php:58
+msgid "最后停在哪个引擎上，或者最终由哪个引擎完成。"
+msgstr ""
+
+#: templates/admin/help/nav.php:26
+msgid "最后再加语言分配和回退"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:478
+msgid ""
+"最后再回到网站前台访问一个繁体页面，并查看插件日志里是否出现“OpenCC 命令执行完成”“OpenCC 最外层回调已完成最终响应转换”这两条。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:70
+msgid ""
+"最后看 failure_type、final_engine、final_status 和 "
+"final_result_count，确认到底是直接成功、回退后成功、预检查失败，还是完全停止。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:39
+msgid ""
+"最常见的原因不是规则没保存，而是当前页面根本不属于“单篇内容页”上下文。文章类型分配只对单篇内容对象生效，不会因为站点里存在某个文章类型，就让所有相关页面都按它走。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:17
+msgid "最常见的情况有两种：第一，命中了文章类型分配；第二，虽然没有命中文章类型规则，但命中了语言分配。只要这两层有命中，默认引擎就会退到后面。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:498
+msgid "最常见误区"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:11
+msgid "最推荐的新手路线："
+msgstr ""
+
+#: templates/admin/help/content-logs.php:172
+msgid ""
+"最推荐的顺序是：先确认同一个 route_id "
+"下到底命中了哪个引擎；再确认这次是文章类型规则、语言分配还是默认引擎生效；然后再去看该引擎本身是否支持当前语言、密钥是否正确、模型名是否可用。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:135
+msgid ""
+"最推荐的顺序是：先配置一个引擎并设为默认引擎；确认它可以稳定翻译后，再增加语言分配；之后再增加回退规则；最后再配置文章类型分配和更复杂的失败模式。"
+msgstr ""
+
+#. %s: Help page URL for logs and troubleshooting.
+#: templates/admin/help/content-quickstart.php:117
+#, php-format
+msgid ""
+"最省时间的做法是直接查看 <a href=\"%s\">日志与排错</a>，先确认本次请求实际命中了哪个引擎、从哪一层规则命中，以及有没有进入回退链。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:176
+msgid "最省时间的经验："
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:130
+msgid "最近同步"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:136
+msgid "最近成功"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:133
+msgid "最近状态码"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:96
+msgid "最重要的执行顺序："
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:91
+msgid "有时候不是引擎选错了，而是密钥、模型名、接口地址或目标语言支持本身有问题。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:439
+msgid "服务器怎么安装 OpenCC"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:426
+msgid "服务器里要真的安装了 opencc 命令。它不是 PHP 扩展。"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:103
+msgid "服务器错误"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1451
+msgid "未同步"
+msgstr ""
+
+#: assets/js/admin-language-query.js:117 assets/js/admin-language-query.js:230
+msgid "未启用"
+msgstr ""
+
+#: templates/router-settings.php:27
+msgid "未命中文章类型规则、语言分配和回退规则时，将走这里选中的引擎。"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:107
+msgid "未就绪"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:17
+#, php-format
+msgid "未找到主引擎 %s，跳过主调用并准备回退。"
+msgstr ""
+
+#: includes/admin/class-log-actions.php:151
+msgid "未找到可下载的日志文件。"
+msgstr ""
+
+#: templates/admin/sections/logs.php:89
+msgid "未找到可读取的日志文件。"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:27
+#, php-format
+msgid "未找到回退引擎 %s，无法继续回退。"
+msgstr ""
+
+#: includes/class-engine-manager.php:34
+msgid "未找到子引擎工厂，跳过实例化"
+msgstr ""
+
+#: templates/admin/sections/help.php:77
+msgid "未找到对应的帮助内容。"
+msgstr ""
+
+#: assets/js/admin-language-query.js:155
+msgid "未找到支持项。"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:111
+msgid "未检测到"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-engine.php:388
+msgid "未检测到可用的 DeepL Key 或账号池。"
+msgstr ""
+
+#: includes/admin/class-log-actions.php:87
+msgid "未检测到已启用的 TranslatePress。路由引擎不会注册到自动翻译页面，但模型设置仍可提前保存。"
+msgstr ""
+
+#: includes/admin/class-log-actions.php:93
+msgid "未识别到可删除的日志文件。"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:857
+msgid "本地阈值已达"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:60
+msgid "本次真正翻译成功了多少条。判断“是完全失败、部分成功，还是完整成功”时很有用。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:55
+msgid "本次预先计算出来的回退链。它表示“理论上接下来准备试谁”，不等于每个都一定会真正执行成功。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:467
+msgid ""
+"本质还是在系统层安装 opencc，不是在 PHP 扩展页里安装。安装完再检查 PHP 的 disable_functions 和站点运行用户权限。"
+msgstr ""
+
+#: templates/admin/page-model-settings.php:43
+msgid "本页帮助"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:101
+msgid "权限被拒绝"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:378
+msgid "极长文本时最保守的并发保护。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:384
+msgid "某个大段总是超时就加大。"
+msgstr ""
+
+#: templates/router-settings.php:131
+msgid "查看 OpenCC 帮助"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:20
+msgid "查看兼容 OpenAI 参数说明"
+msgstr ""
+
+#: templates/router-settings.php:13
+msgid "查看帮助"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:182
+msgid "查看常见问题"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:144
+msgid "查看引擎配置说明"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:110
+msgid "查看支持的语言"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:140
+msgid "查看日志与排错"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:515
+msgid "查看日志与排错帮助"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:514
+msgid "查看路由设置帮助"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:139
+msgid "查看路由设置说明"
+msgstr ""
+
+#: templates/router-settings.php:186
+msgid "查询"
+msgstr ""
+
+#: assets/js/admin-language-query.js:261
+msgid "查询中…"
+msgstr ""
+
+#: includes/class-admin-settings.php:54
+msgid "查询失败。"
+msgstr ""
+
+#: assets/js/admin-language-query.js:294
+msgid "查询失败，请稍后重试。"
+msgstr ""
+
+#: assets/js/admin-language-query.js:305
+msgid "查询失败："
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:110
+msgid "检测到的 DeepL 基类"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:50
+#: templates/admin/sections/engine-hunyuan.php:15
+#: assets/js/admin-language-query.js:196
+msgid "模型"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:20
+#: templates/admin/sections/engine-openai-compatible.php:43
+#: templates/admin/help/content-engines.php:248
+msgid "模型名称"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:54
+msgid ""
+"模型是 <code>hunyuan-translation*</code>，填写 <strong>SecretId</strong>；若模型是 "
+"<code>hunyuan-mt-7b</code>，这里填写第三方平台的 <strong>API Key</strong>（默认是 "
+"SiliconFlow）。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:131
+msgid "模型设置页是把每个引擎先配好。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:11
+msgid "模型设置页解决的是“这个引擎能不能工作”；路由设置页解决的是“工作时该选哪个引擎”。先把前者配通，再看后者。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:12
+msgid "模型设置页负责“把每个引擎准备好”，路由设置页负责“决定这次请求交给谁”，日志页负责“出了问题后看它到底怎么走的”。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:88
+msgid "模型设置页负责填参数；路由设置页负责决定“走哪个引擎”。这两个页面不是一回事。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:16
+msgid ""
+"模型设置页负责维护每个引擎自己的配置参数，例如 API Key、SecretId、SecretKey、Base "
+"URL、模型名、账号池和备注。你可以把它理解成“把每台机器先接好电、插好网、确认能启动”。"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:851
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1114
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1124
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1456
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1465
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1482
+msgid "欠费"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:29
+msgid "欢迎扫码关注，获取插件更新、使用技巧和后续新功能信息。"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:44
+msgid "欢迎通过以下方式支持作者，帮助插件持续改进。"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:860
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1496
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:93
+msgid "正常"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1146
+msgid "正常（今日官方为0）"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1149
+msgid "正常（按官方）"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:141
+#: templates/admin/help/content-engines.php:342
+msgid "每批总字符上限"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:57
+msgid ""
+"每条文章类型规则都可以指定“主引擎失败后，接下来怎么处理”。这里的失败包括：引擎当前不可用、不支持目标语言、接口报错、翻译失败等无法继续的情况。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:193
+#: templates/admin/help/content-engines.php:392
+msgid "每次额外加几秒"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:393
+msgid "每走一档，就多给几秒等待。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:189
+#: templates/admin/help/content-engines.php:387
+msgid "每隔多少字加一次超时"
+msgstr ""
+
+#. %1$s: Example base API endpoint wrapped in <code>.
+#: templates/admin/sections/engine-openai.php:74
+#, php-format
+msgid "比如 %1$s 不加斜杠，留空时默认使用 OpenAI 官方接口。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:295
+msgid "没有明确需求就留空。"
+msgstr ""
+
+#: includes/class-admin-settings.php:39
+msgid "没有权限执行该查询。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:127
+msgid "没特殊要求就留空。只有你明确要控制术语、语气、敬语、品牌口吻时再写。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:300
+msgid "没遇到问题就别动。真要改，优先只看“超过多少字开始切段”“普通长文每段多大”“单条请求基础超时”这 3 个。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:83
+msgid ""
+"注意：账号池输入框显示的是脱敏后的已保存账号池，中间字符会被星号替换，因此无法从页面复制出原始 APIKey / AK / "
+"SK。直接保存会保留原值；如需修改，请在这个框里全选后粘贴完整的新账号池，再保存即可整体替换。为避免号池较长时同时出现横向和竖向滚动条，这里会在显示时自动换行，但保存的仍然是你实际输入的原始内容。"
+msgstr ""
+
+#: templates/router-settings.php:48
+msgid "添加"
+msgstr ""
+
+#: templates/router-settings.php:51 templates/router-settings.php:101
+msgid "添加文章类型规则"
+msgstr ""
+
+#: includes/admin/class-log-actions.php:96
+msgid "清空当前日志文件失败，请检查服务器文件权限。"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2815
+msgid "火山 Chat 结果校验未通过"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3332
+msgid "火山 translate_array 开始"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3278
+msgid "火山 translate_array 直接返回：入参无效"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3328
+msgid "火山 translate_array 直接返回：无可用接入点"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3298
+msgid "火山 translate_array 直接返回：语言映射为空"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3558
+msgid "火山 translate_array 结束"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3348
+msgid "火山 translate_array 预处理结果"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3403
+msgid "火山分块并发结果未通过校验，进入质量重试"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3388
+msgid "火山分块并发结果缺失，进入串行重试"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3415
+msgid "火山分块最终无结果"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3524
+msgid "火山分块结果写入完成"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3027
+msgid "火山分块翻译主请求成功"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3041
+msgid "火山分块翻译主请求结果未通过校验"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3119
+msgid "火山分块翻译切换到下一个接入点"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3155
+msgid "火山分块翻译失败：全部重试已结束"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3000
+msgid "火山分块翻译失败：无可用接入点"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3012
+msgid "火山分块翻译开始"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3104
+msgid "火山分块翻译质量重试成功"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3132
+msgid "火山分块翻译跨接入点重试成功"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2769
+msgid "火山响应解析失败"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2777
+msgid "火山响应解析成功"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3373
+msgid "火山并发分组开始"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2858
+msgid "火山接入点已标记不可用"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2849
+msgid "火山接入点状态评估"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:28
+msgid "火山支持把不同模型绑定到不同接入点，因此号池里可以同时放翻译接入点和聊天接入点。"
+msgstr ""
+
+#: includes/class-language-support-query.php:19
+#: includes/admin/class-engine-registry.php:12
+#: includes/engines/volc/class-volc-engine.php:21
+#: templates/admin/help/content-engines.php:26
+msgid "火山方舟"
+msgstr ""
+
+#: includes/engines/volc/class-volc-client.php:200
+msgid "火山方舟 test_request 开始"
+msgstr ""
+
+#: includes/engines/volc/class-volc-client.php:202
+msgid "火山方舟 test_request 返回"
+msgstr ""
+
+#: includes/engines/volc/class-volc-client.php:133
+msgid "火山方舟不可用：未检测到有效账号池。"
+msgstr ""
+
+#. Placeholder tokens in this log message are runtime values such as engine names, language codes, or fallback engine slugs.
+#: includes/i18n-log-strings.php:31
+#, php-format
+msgid "火山方舟不支持 %s 语言，直接跳过主调用。"
+msgstr ""
+
+#: includes/engines/volc/class-volc-client.php:140
+msgid "火山方舟不支持目标语言。"
+msgstr ""
+
+#: includes/admin/engines/class-volc-admin-config.php:21
+msgid "火山方舟使用账号池格式配置。"
+msgstr ""
+
+#: includes/class-admin-settings.php:547
+msgid "火山方舟用量刷新失败：当前未配置账号池。"
+msgstr ""
+
+#: includes/class-admin-settings.php:556
+msgid "火山方舟用量刷新失败：当前版本不支持手动刷新。"
+msgstr ""
+
+#: includes/class-admin-settings.php:538
+msgid "火山方舟用量刷新失败：请求校验未通过。"
+msgstr ""
+
+#: includes/class-admin-settings.php:554
+msgid "火山方舟用量已手动刷新。"
+msgstr ""
+
+#: includes/engines/volc/class-volc-client.php:165
+msgid "火山方舟翻译器未就绪。"
+msgstr ""
+
+#: includes/engines/volc/class-volc-client.php:106
+msgid "火山方舟翻译器类不可用。"
+msgstr ""
+
+#: includes/admin/engines/class-volc-admin-config.php:53
+msgid "火山方舟页已切换为旧火山插件兼容后台。"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3600
+msgid "火山翻译已返回结果，但插件暂时无法正确解析。"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2369
+msgid "火山翻译请求失败。"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3086
+msgid "火山聊天分块保留主请求结果，跳过整块质量重试"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3187
+msgid "火山聊天分块失败后进入拆分补救"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3464
+msgid "火山聊天分块零验收，进入单条补救重试"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3075
+msgid "火山聊天单条强制质量重试成功"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3063
+msgid "火山聊天单条触发强制质量重试"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3396
+msgid "火山聊天并发结果未通过整块校验，跳过质量重试并按单条验收"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3546
+msgid "火山聊天批次检测到重试压力，后续并发自动降档"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2417
+msgid "火山请求准备发送"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2522
+msgid "火山请求切换到下一个模式"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2450
+msgid "火山请求发送中"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2433
+msgid "火山请求模式跳过：请求体构建失败"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2399
+msgid "火山请求终止：当前接入点达到安全阈值"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2388
+msgid "火山请求终止：无可用接入点"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2544
+msgid "火山请求结束：当前语言在全部模式下均未成功"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2508
+msgid "火山请求返回失败"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2487
+msgid "火山请求返回成功"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3535
+msgid "火山配额记录达到上限，提前结束批量翻译"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:379
+msgid "特别慢的第三方网关才需要碰它。"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:134
+#: templates/admin/sections/engine-volc.php:129
+msgid "状态"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:16
+msgid ""
+"现在并发配置分为两层：路由设置里的“全局默认并发”是默认值；各子引擎里的“并发数”是覆盖值。子引擎填 0 时会继承全局；全局也填 0 "
+"时，会继续使用该引擎自己的内置默认值。"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:57
+msgid "用于存放该模型的额外 body 参数，填写 JSON 片段即可。"
+msgstr ""
+
+#: includes/admin/engines/class-openai-compatible-admin-config.php:44
+msgid "用于接入兼容 OpenAI 的第三方模型或网关。新手先只填 API Key、模型名称、接口地址，再套用推荐起步参数即可。"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:119
+msgid ""
+"用于控制并发翻译请求数。填 <code>0</code> 表示继承路由设置里的全局默认并发；如果全局也为 <code>0</code>"
+"，则使用内置默认值。<code>hunyuan-mt-7b</code> 会实际使用这里的值；腾讯官方翻译模型仍会按更保守的串行/低并发策略执行。"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:17
+#: templates/admin/sections/engine-openai-compatible.php:35
+#: templates/admin/sections/engine-hunyuan.php:53
+#: templates/admin/sections/engine-openai.php:17
+msgid "留空 = 已保存 API Key"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:63
+msgid "留空 = 已保存 SecretKey"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:67
+msgid "看 route_source 和 matched_rule，确认这次到底是文章类型规则命中、语言分配命中，还是默认引擎兜底。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:66
+msgid "看 selected_engine，确认这次主引擎到底是谁。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:280
+msgid "看不懂就保持 36。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:89
+msgid ""
+"看到 DeepL 的日志，不一定表示主请求先走了 DeepL。它可能是默认引擎回退命中，也可能只是 DeepL 的语言支持检查、缓存读取或其他预检查日志。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:134
+msgid ""
+"看到某个引擎的日志，不一定表示主请求先走了这个引擎。它可能是回退命中，也可能是语言支持查询、缓存读取、账号池 key 检查，或者只是被实例化后很快跳过。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:92
+msgid "看日志时，最应该先看哪几个字段？"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:93
+msgid ""
+"看这类多引擎、多规则插件时，不建议只凭页面现象猜问题。最快的方法通常是先看日志，再确认到底是规则没命中、引擎不支持语言，还是凭证、模型名、接口地址本身有问题。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:135
+msgid ""
+"真正判断“这次主路由先走了谁”，要优先看 selected_engine 和 route_source，而不是只看“某个引擎名有没有出现在日志里”。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:249
+msgid "真正发给对方接口的模型名。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:137
+#: templates/admin/help/content-engines.php:337
+msgid "短句打包条数"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:103
+#: templates/admin/help/content-engines.php:278
+msgid "短文本合并阈值"
+msgstr ""
+
+#: templates/admin/sections/logs.php:74
+msgid "确定删除当前日志文件吗？若删除的是今天的日志，插件会优先清空内容，后续有新请求时日志可能再次写入。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:171
+msgid "示例 A：最简单，只设默认引擎"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:184
+msgid "示例 B：默认引擎 + 语言分配"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:197
+msgid "示例 C：默认引擎 + 语言分配 + 回退规则"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:212
+msgid "示例 D：文章类型规则 + 失败不翻译"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:230
+msgid "示例 E：文章类型规则 + 仅默认引擎"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:248
+msgid "示例 F：文章类型规则 + 全局规则"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:92
+msgid "空闲"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:486
+msgid "站点运行用户是否有权限执行该命令。SSH 下 root 能跑，不代表 PHP 运行用户也能跑。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:8
+msgid ""
+"第一次使用时，最容易出问题的通常不是某一个字段，而是一次性把默认引擎、文章类型分配、语言分配、回退规则和账号池都打开了。建议先把最小链路跑通，再逐步增加复杂度。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:86
+msgid "第一次配置时最容易忽略的事"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:277
+msgid "第一步：只设置默认引擎，确认 Router 已经可以正常工作。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:70
+msgid "第一轮失败时，最省时间的做法不是一口气改很多地方，而是先确认：这次到底有没有命中你以为的那个引擎、它是配置错误、语言不支持，还是请求本身失败。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:15
+msgid "第一轮建议只做这 5 件事"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:74
+msgid "第一轮成功后，再按这个顺序逐步增加复杂度"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:99
+msgid ""
+"第一轮推荐配置：\n"
+"默认引擎：openai\n"
+"文章类型分配：不配置\n"
+"语言分配：不配置\n"
+"回退规则：不配置"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:412
+msgid "第三方网关经常 429：优先降 concurrency，不要先乱加 retry。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:279
+msgid "第三步：再给重要的目标语言增加回退规则。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:77
+msgid "第三轮：如果你担心主引擎失败后完全中断，再增加回退规则。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:278
+msgid "第二步：给少量确定需要特殊处理的语言增加语言分配。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:76
+msgid "第二轮：如果某个目标语言更适合某个引擎，再增加语言分配。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:79
+msgid "第五轮：如果是 DeepL 或多 Key 场景，再考虑账号池。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:280
+msgid "第四步：最后再给确实需要特殊策略的文章类型增加规则，例如 product、portfolio、guides、case。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:78
+msgid "第四轮：如果某些内容类型必须优先走特定引擎，再增加文章类型分配。"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1145
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1478
+msgid "等待官方同步"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:131
+msgid "类型"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:444
+msgid "系统/环境"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:40
+msgid "系统提示词"
+msgstr ""
+
+#: templates/router-settings.php:113
+msgid "繁体中文翻译"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:43
+msgid "给大模型类接口使用的系统提示词，可留空。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:309
+msgid "给请求体额外塞 JSON 参数，也可能覆盖上面的基础设置。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:304
+msgid "给请求额外塞 HTTP 头。"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:123
+msgid "统计日期"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:428
+msgid "网站运行用户必须能创建临时文件，并且能执行 opencc。"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:95
+msgid "网络错误"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:83
+msgid "网络错误 / 5xx 冷却秒数"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:30
+#: templates/admin/sections/engine-qwen.php:41
+msgid "美国"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:65
+msgid "美国（弗吉尼亚）"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:414
+msgid "翻译太会发挥：temperature 保持 0；必要时再写 system prompt。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:413
+msgid "翻译总是半截：把 max_tokens 调大。"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:65
+#: templates/admin/help/content-engines.php:36
+msgid "翻译模型：<code>接入点ID|APIKey|Access Key|Secret Access Key|安全阈值Tokens</code>。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:113
+msgid "翻译要稳，不要太会发挥。不会调就用 <code>0</code>。"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:70
+#: templates/admin/help/content-engines.php:45
+msgid ""
+"聊天模型：<code>接入点ID|APIKey|Access Key|Secret Access Key|安全阈值Tokens|chat</code>"
+"。<a href=\"https://console.volcengine.com/iam/keymanage\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">创建火山引擎 KEY</a>。"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:95
+msgid "腾讯云中国"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:81
+#: templates/admin/help/content-engines.php:136
+msgid "腾讯云中国 SecretKey"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:145
+msgid "腾讯云中国文档"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:96
+msgid "腾讯云国际"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:82
+#: templates/admin/help/content-engines.php:139
+msgid "腾讯云国际 SecretKey"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:149
+msgid "腾讯云国际文档"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:22
+msgid "腾讯官方 Hunyuan 翻译模型会按更保守的策略执行；即使填写了更高并发，实际也可能仍保持较低并发。"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:112
+msgid ""
+"腾讯官方文档当前写明默认单账号并发数限制为 5；路由版在官方模型下会保守处理，在 <code>hunyuan-mt-7b</code> "
+"下保留并发翻译优化。"
+msgstr ""
+
+#: includes/admin/engines/class-hunyuan-admin-config.php:22
+msgid "腾讯官方模型走 ChatTranslations；hunyuan-mt-7b 默认走 SiliconFlow。"
+msgstr ""
+
+#: includes/class-router-engine.php:629
+msgid "自定义 openai_compatible"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:124
+#: templates/admin/help/content-engines.php:293
+msgid "自定义 system prompt"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:71
+#: templates/admin/sections/engine-hunyuan.php:102
+#: templates/admin/sections/engine-openai.php:66
+msgid "自定义API"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:167
+#: templates/admin/help/content-engines.php:210
+msgid "自定义兼容 OpenAI API"
+msgstr ""
+
+#: templates/admin/sections/engine-openai.php:53
+#: templates/admin/sections/engine-openai.php:59
+msgid "自定义模型"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:79
+msgid "表示前面都没有命中，或者前面的链路都没有成功，最后落到默认引擎。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:77
+msgid "表示这次是文章类型规则命中的，例如 guides 单篇内容页命中了 guides -> qwen。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:78
+msgid "表示这次没有被文章类型主引擎拦截，而是目标语言命中了语言分配，例如 am = volc。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:240
+msgid "要用它就勾上。"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:132
+msgid "角色"
+msgstr ""
+
+#: includes/class-admin-settings.php:149
+msgid "设置保存完成"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:227
+msgid "设置页每一项是什么意思（按页面顺序）"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:223
+msgid ""
+"设置页里已经预留了一套“<strong>稳妥起步值</strong>”，专门照顾 <strong>第三方兼容网关 + 长文章 + HTML 页面 + "
+"容易超时</strong> 这些场景。你不需要死记这些数，知道它的思路就够了。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:231
+#: templates/admin/help/content-engines.php:330
+msgid "设置页里的名字"
+msgstr ""
+
+#: assets/js/admin-language-query.js:204
+msgid "识别码"
+msgstr ""
+
+#: assets/js/admin-language-query.js:91
+msgid "识别："
+msgstr ""
+
+#: templates/router-settings.php:136
+msgid "语言分配"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:122
+msgid "语言分配优先级高于默认引擎，但低于命中的文章类型主引擎。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:141
+msgid "语言分配只有在当前请求没有被文章类型主引擎拦截，或者文章类型规则设置为“全局规则”且主引擎失败后，才会真正参与后续决策。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:268
+msgid "语言分配和回退规则右边填写的是“引擎标识”，不是页面显示名称。比如要写 openai_compatible，而不是“兼容 OpenAI”。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:36
+msgid ""
+"语言分配并没有失效，只是它排在文章类型规则后面。只有文章类型规则没有命中，或者文章类型规则允许继续全局规则并且主引擎失败后，语言分配才会真正参与后续决策。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:128
+msgid "语言分配是“按目标语言指定主引擎”。格式是一行一条：左边写语言代码，右边写引擎标识。这里必须填写引擎标识，不要填写页面显示名称。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:48
+msgid ""
+"语言分配用于指定“某个目标语言优先走哪个引擎”。它不是看当前内容是什么类型，而是看“这次要翻成什么语言”。只要命中了语言分配，请求就会优先走这里指定的引擎，除非前面已经被文章类型主引擎拦住。"
+msgstr ""
+
+#: templates/router-settings.php:176
+msgid "语言支持查询"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:502
+msgid "误以为 OpenCC 会把繁体写回 TranslatePress 翻译表。当前模式下它是不入库、只处理前台最终输出。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:500
+msgid "误以为 OpenCC 是 PHP 扩展，其实不是。它是系统命令。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:501
+msgid "误以为装了 opencc 命令就一定能用，还需要 PHP 没禁 shell_exec、临时目录可写、站点用户可执行。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:142
+msgid "说明回退引擎在真正发请求前的预检查阶段就没通过，例如语言不支持或引擎不可用。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:27
+msgid "请先在“日志”标签页启用文件日志。当前日志文件默认写入 WordPress uploads 目录下的插件子目录。"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:3586
+msgid "请填写多账号池。"
+msgstr ""
+
+#: assets/js/admin-language-query.js:308
+msgid "请检查后台 AJAX 是否正常。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:141
+msgid "请求发出去了，但没有拿到有效翻译结果。此时要继续看上游接口返回、失败类型和回退决策。"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:105
+msgid "请求失败"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:254
+msgid "请求要发到哪里。"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:36
+msgid "请求超时（秒）"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:97
+msgid "请求过快，已冷却"
+msgstr ""
+
+#: includes/class-language-support-query.php:34
+msgid "请输入语言后再查询。"
+msgstr ""
+
+#: templates/router-settings.php:79
+msgid "请选择引擎"
+msgstr ""
+
+#: includes/class-language-support-query.php:41
+msgid "请选择要检查的模型。"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-engine.php:465
+msgid "调用 DeepL 翻译"
+msgstr ""
+
+#: includes/engines/volc/class-volc-client.php:151
+msgid "调用火山方舟真实翻译请求"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:244
+msgid "调用这个平台时用的密钥。"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:66
+#: templates/admin/sections/engine-deepl.php:145
+#: templates/admin/sections/engine-volc.php:56
+msgid "账号池"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:2394
+msgid "账号池今日已用完或均不可用，已停止自动翻译。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:88
+msgid ""
+"账号池通常出现在 DeepL 或多 Key 场景里。它的作用是从多个 key "
+"或多个账号里选择可用候选项继续请求，用来提高可用性、分摊请求压力，或者在单个 key 失效时继续尝试其他候选。"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:78
+#: templates/admin/sections/engine-openai-compatible.php:75
+#: templates/admin/sections/engine-hunyuan.php:109
+#: templates/admin/sections/engine-openai.php:89
+#: templates/admin/help/content-engines.php:258
+msgid "超时（秒）"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:149
+#: templates/admin/help/content-engines.php:352
+msgid "超过多少字开始切段"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:322
+msgid "超过多少字开始切段（long_text_threshold）：文章一长就超时时，把它调小。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:374
+msgid "超长段落多时再改。"
+msgstr ""
+
+#: langrouter-for-translatepress.php:386
+msgid "路由"
+msgstr ""
+
+#: templates/router-settings.php:7 templates/admin/page-model-settings.php:13
+#: templates/admin/sections/help.php:11
+#: templates/admin/help/content-routing.php:6
+msgid "路由设置"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:132
+msgid "路由设置页是决定这次请求该走谁。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:20
+msgid ""
+"路由设置页负责决定“这次翻译请求最后交给哪个引擎”。例如：默认引擎是什么、某个目标语言是否优先分配给某个引擎、某个文章类型是否固定先走某个引擎、主引擎失败后要不要继续尝试别的引擎。"
+msgstr ""
+
+#: templates/router-settings.php:188
+msgid "输入语言名称、语言代码或 locale 均可；输入后会自动查询一次，右侧按钮可手动重试。"
+msgstr ""
+
+#: assets/js/admin-language-query.js:84
+msgid "输入："
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1473
+msgid "达到安全阈值"
+msgstr ""
+
+#: includes/engines/volc/class-trp-volcengine-ark-machine-translator.php:1470
+msgid "达到本地阈值（官方同步失败）"
+msgstr ""
+
+#: templates/admin/sections/logs.php:36
+msgid "运行日志查看"
+msgstr ""
+
+#: templates/admin/sections/engine-deepl.php:120
+msgid "运行状态"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:143
+msgid "返回快速开始"
+msgstr ""
+
+#: templates/admin/page-model-settings.php:40
+msgid "返回模型设置"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:287
+msgid "返回看基本概念"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:85
+msgid "这一块是整套路由里最容易混淆的地方。你可以简单记住：文章类型规则决定“先走谁”，失败模式决定“先走的那个不行后，还让不让继续往后试”。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:54
+msgid "这一轮先只设默认引擎，不要急着增加语言分配、文章类型分配或回退规则。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:8
+msgid ""
+"这一页不是教你填具体配置，而是先帮你把几个最容易混淆的概念理顺。只要先搞明白“每一块是做什么的、什么时候生效、谁先谁后”，后面看模型设置、路由设置和日志时就会轻松很多。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:17
+msgid ""
+"这一页不负责决定请求最终走哪个引擎，它只负责让某个引擎本身具备可用条件。也就是说，一个引擎就算在模型设置页里已经填好了参数，如果路由设置没有选中它，这次请求也未必会走它。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:8
+msgid ""
+"这一页主要回答路由设置、引擎命中、回退链路和日志排查中最常见的问题。如果你已经配置了默认引擎、语言分配、文章类型分配和回退规则，但实际运行结果和预期不一致，建议先看这里。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:7
+msgid "这一页只讲“怎么填”和“容易踩什么坑”，不讲内部代码。建议先让一个引擎稳定工作，再继续配置更多引擎。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:8
+msgid ""
+"这一页用于决定 Router "
+"在真正发起翻译前，应该把请求交给哪个子引擎。你可以把它理解成“派单中心”：先判断是否命中文章类型规则，再判断是否命中语言分配，然后决定失败后的回退路径，最后才会落到默认引擎。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:76
+msgid "这三种模式都只针对“文章类型规则命中后，主引擎失败时怎么继续”这个问题。区别不在于主引擎怎么选，而在于主引擎失败后的后续链路是否继续。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:211
+msgid ""
+"这个引擎就是用来接 <strong>第三方 OpenAI 风格接口</strong> "
+"的，比如中转平台、企业网关、自建兼容接口。你可以把它理解成：<strong>只要对方接口长得像 OpenAI，就可以尝试在这里接入</strong>"
+"。路由规则里使用的引擎标识仍然是 <code>openai_compatible</code>。"
+msgstr ""
+
+#. %s: Traditional Chinese language code aliases joined with Chinese punctuation.
+#: templates/router-settings.php:124
+#, php-format
+msgid ""
+"这个选项只影响繁体中文目标语言。识别范围会优先自动读取当前 TranslatePress 已启用语言代码及其 URL "
+"slug，并附带插件兜底别名：<code>%s</code>。选择 OpenCC "
+"后，这些语言不会进入任何翻译引擎，也不会写入自动翻译结果；前台页面保持原文输出，再由插件内置的 OpenCC 全页转换接管。选择 "
+"TranslatePress 时，则和其他语言一样正常进入翻译流程。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:136
+msgid "这个顺序最容易排错，因为你可以很清楚地知道当前问题到底出在默认引擎、语言分配、回退规则，还是文章类型主链路。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:110
+msgid ""
+"这几种模式最容易在日志里看混。判断时，建议优先看 fallback_mode、runtime_fallback_mode 和 "
+"planned_fallback_chain。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:110
+msgid "这是插件的设计行为。保存当前标签页时，会尽量保留其他未提交标签页的已有配置，避免误清空。这样做的目的是减少多标签配置时的误删风险。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:43
+msgid ""
+"这是最容易误解的地方。文章类型分配并不是“只要站点里存在这个文章类型，就让所有相关页面都按它走”，而是只有当前翻译对象能够识别为某个单篇内容页时，才会按该对象的文章类型匹配规则。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:109
+msgid "这是最适合新手的起步方式。先确认这一条最简单的链路能成功，再往上增加复杂规则。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:283
+msgid "这样做的好处是：一旦某一步出现问题，你更容易判断到底是默认引擎、语言分配、回退规则，还是文章类型主链路造成的。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:50
+msgid "这次主路由最开始命中的引擎。要判断“到底先走了谁”，优先看它。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:56
+msgid "这次实际正在尝试的回退引擎。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:269
+msgid "这次翻译允许模型最多输出多少内容。太小会截断，太大可能更慢。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:59
+msgid "这次路由最终是成功、停止、预检查失败，还是其他终态。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:117
+msgid ""
+"这组配置可以这样理解：如果当前是 guides 单篇内容页，就先走 Qwen；如果 Qwen 不能继续，而且 guides "
+"这条规则允许走全局规则，那么再看 en_US "
+"是否命中了语言分配；命中了就先尝试Hunyuan；如果Hunyuan也不能继续，再按回退规则尝试火山；最后才落到默认引擎 OpenAI。"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:73
+msgid "这组配置真正命中 guides 单篇内容页时，Qwen 失败后应该直接停止，不会再继续尝试 volc、hunyuan 或 DeepL。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:91
+msgid "这表示当前主路由是由文章类型规则命中的，不是语言分配，也不是默认引擎。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:34
+msgid ""
+"这里最重要的一点是：文章类型分配只对单篇内容页生效。它不是“只要站点里有这个文章类型，就让所有相关页面都按它走”，而是只有当前翻译对象本身能识别为某个单篇内容页时，才会按这个文章类型去匹配规则。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:65
+msgid "这里的“成功”不是指页面点开没报错，而是指实际有翻译结果，并且日志里能看到本次请求确实命中了你设置的默认引擎。"
+msgstr ""
+
+#: templates/admin/sections/logs.php:37
+msgid ""
+"这里直接查看日志目录下的文件，无需再进服务器。当前只展示所选日志文件最后一段内容，便于排查 Router / 火山 / DeepL 是否真正进入执行链路。"
+msgstr ""
+
+#. %s: Model settings page URL.
+#: templates/router-settings.php:200
+#, php-format
+msgid ""
+"这里负责默认引擎、按文章类型分配、按语言分配以及回退规则。模型参数、接口地址、密钥等内容请到 <a href=\"%s\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">模型设置</a> "
+"页面维护；文件日志开关与日志查看已移至该页面的“日志”标签页。"
+msgstr ""
+
+#: templates/admin/sections/help.php:72
+msgid "这里集中说明插件的上手顺序、路由优先级、常见配置方式和日志排错思路。建议新手先看“快速开始”和“路由设置”，再根据自己接入的引擎查看对应说明。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:192
+msgid "适合作为新手第一条最小可用链路，因为它通常更容易先配通。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:204
+msgid "适合需要账号池或某些语言翻译质量更稳定的场景。"
+msgstr ""
+
+#: templates/router-settings.php:49
+msgid "选择引擎"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:47
+msgid "通常不会按文章类型规则处理的场景：文章列表页、分类归档页、标签页、搜索结果页、首页聚合流，以及各种非单篇上下文。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:120
+msgid "通常保持 <code>1</code> 就行。你已经把 temperature 设低时，top_p 一般别乱改。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:97
+msgid "通常先看文章类型主引擎；如果没有命中，再看语言分配；如果当前链路失败，再看回退规则；最后才会落到默认引擎。"
+msgstr ""
+
+#: templates/admin/sections/engine-hunyuan.php:105
+msgid "通常留空即可。官方翻译模型会按上方“地域”自动绑定腾讯云中国 / 国际 API；若你接的是第三方兼容提供商，再手动填写这里。"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:74
+msgid "通常留空即可。留空时会按上面的地域自动选择官方地址；这里只在反向代理、企业网关或自建转发场景下填写自定义 API 地址。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:139
+msgid "通常表示腾讯云或Hunyuan相关凭证错误，不是路由规则选错了引擎。"
+msgstr ""
+
+#: templates/admin/help/content-feedback.php:62
+msgid "通过 PayPal 支持作者"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:398
+msgid "遇到 HTML、短码、富文本时，再额外多等一会儿。"
+msgstr ""
+
+#: templates/admin/help/content-logs.php:169
+msgid ""
+"遇到这种情况，不要只看 HTTP 状态码，要同时看 failure_type、final_status、fallback_source 和 "
+"final_result_count。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:112
+msgid "遇到问题时不要先猜。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:18
+msgid "配置一个可用引擎"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:505
+msgid "配置引擎时的通用建议"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:193
+msgid "重点检查 API Key、Base URL 和模型名。使用官方接口时，Base URL 一般不需要自定义。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:154
+msgid "重点检查 SecretId、SecretKey 和模型名。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:96
+#: templates/admin/help/content-engines.php:273
+msgid "重试次数"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:165
+msgid "长文并发上限 1"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:173
+msgid "长文并发上限 2"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:181
+msgid "长文并发上限 3"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:354
+msgid "长文章经常 timeout，就把它调小。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:161
+msgid "长文降并发阈值 1"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:367
+msgid "长文降并发阈值 1 / 长文并发上限 1"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:169
+msgid "长文降并发阈值 2"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:372
+msgid "长文降并发阈值 2 / 长文并发上限 2"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:177
+msgid "长文降并发阈值 3"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:377
+msgid "长文降并发阈值 3 / 长文并发上限 3"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:369
+msgid "长段一多就不稳、429 多时再改。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:359
+msgid "长段落还是慢就调小；请求太碎太多就略调大。"
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:22
+msgid "阿里云中国 KEY："
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:33
+msgid "阿里云国际 KEY："
+msgstr ""
+
+#: templates/admin/sections/engine-qwen.php:91
+#: templates/admin/sections/engine-openai-compatible.php:217
+#: templates/admin/sections/engine-hunyuan.php:123
+#: templates/admin/sections/engine-openai.php:100
+#: templates/admin/help/content-engines.php:308
+msgid "附加请求 JSON"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:54
+msgid "附加请求体 JSON"
+msgstr ""
+
+#: templates/admin/sections/generic-engine.php:47
+#: templates/admin/sections/engine-openai-compatible.php:210
+#: templates/admin/help/content-engines.php:303
+msgid "附加请求头"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:315
+msgid "随便写，不会影响请求。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:157
+msgid ""
+"需要注意：回退规则只有在当前请求允许继续回退时才会真正执行。如果文章类型规则选择的是“失败不翻译”，那么即使你在这里写了规则，也不会进入这一层。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:399
+msgid "页面标签很多、HTML 页面慢时再改。"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:106
+msgid "页面里很多很短的小句子时，插件会尝试先拼一拼再翻，减少请求数。看不懂就别动，保持 36。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:294
+msgid "额外加给模型的要求，比如术语、语气、品牌口吻。"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-key-pool-translator.php:99
+msgid "额度用尽，已冷却"
+msgstr ""
+
+#: includes/engines/deepl/class-deepl-engine.php:398
+msgid "首次查询会触发 DeepL /languages 接口并写入缓存；当前尚未拿到有效结果。"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:320
+msgid "高级参数别全背，只记最常改的 3 个"
+msgstr ""
+
+#: templates/admin/sections/engine-openai-compatible.php:131
+#: templates/admin/help/content-engines.php:298
+msgid "高级运行参数"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:20
+msgid "高配服务器：可以把全局设为 4–6，再对单个更稳定的引擎单独提高。建议每次只上调 1–2，避免一次拉太高。"
+msgstr ""
+
+#: templates/admin/sections/logs.php:77
+msgid ""
+"默认展示最新日志文件。日志内容中若出现 <code>Router 开始分发翻译请求</code>、<code>调用 DeepL 翻译</code>"
+"、<code>DeepL 尝试账号池条目</code> "
+"等记录，就说明请求已经进入对应执行链路。删除的是当天日志时，插件会优先清空内容；如果随后仍有新请求写日志，文件会再次出现。"
+msgstr ""
+
+#: templates/router-settings.php:20 templates/router-settings.php:53
+#: templates/router-settings.php:87
+msgid "默认引擎"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:16
+msgid "默认引擎不是“永远先走它”的引擎，而是在没有命中文章类型规则、没有命中语言分配，或者前面的可继续链路都没有成功时，最后使用的兜底引擎。"
+msgstr ""
+
+#: templates/admin/help/content-quickstart.php:89
+msgid "默认引擎不是最高优先级。只要命中了文章类型规则或语言分配，就会优先走更高优先级的那一层。"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:24
+msgid "默认引擎是兜底选项。它的意思不是“永远先走这个引擎”，而是“前面的规则都没有命中，或者前面的可继续链路都没有成功时，最后再用它”。"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:105
+#: templates/admin/help/content-routing.php:250
+msgid ""
+"默认引擎：deepl\n"
+"\n"
+"文章类型分配：\n"
+"  guides -> qwen（全局规则）\n"
+"\n"
+"语言分配：\n"
+"  am = volc\n"
+"\n"
+"回退规则：\n"
+"  am = hunyuan"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:63
+#: templates/admin/help/content-routing.php:214
+msgid ""
+"默认引擎：deepl\n"
+"\n"
+"文章类型分配：\n"
+"  guides -> qwen（失败不翻译）\n"
+"\n"
+"语言分配：\n"
+"  am = volc\n"
+"\n"
+"回退规则：\n"
+"  am = hunyuan"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:120
+#: templates/admin/help/content-logs.php:149
+msgid ""
+"默认引擎：deepl\n"
+"\n"
+"语言分配：\n"
+"  am = volc\n"
+"\n"
+"回退规则：\n"
+"  am = hunyuan"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:19
+#: templates/admin/help/content-concepts.php:27
+msgid "默认引擎：openai"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:84
+msgid ""
+"默认引擎：openai\n"
+"\n"
+"文章类型分配：\n"
+"  guides -> qwen（仅默认引擎）\n"
+"\n"
+"语言分配：\n"
+"  am = volc\n"
+"\n"
+"回退规则：\n"
+"  am = hunyuan"
+msgstr ""
+
+#: templates/admin/help/content-concepts.php:102
+msgid ""
+"默认引擎：openai\n"
+"\n"
+"文章类型分配：\n"
+"  guides -> qwen（全局规则）\n"
+"\n"
+"语言分配：\n"
+"  en_US = hunyuan\n"
+"\n"
+"回退规则：\n"
+"  en_US = volc"
+msgstr ""
+
+#: templates/admin/help/content-faq.php:20
+msgid ""
+"默认引擎：openai\n"
+"\n"
+"文章类型分配：\n"
+"  guides -> qwen（失败不翻译）\n"
+"\n"
+"语言分配：\n"
+"  am = volc"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:232
+msgid ""
+"默认引擎：openai\n"
+"\n"
+"文章类型分配：\n"
+"  product -> deepl（仅默认引擎）\n"
+"\n"
+"语言分配：\n"
+"  en_US = hunyuan\n"
+"\n"
+"回退规则：\n"
+"  en_US = volc"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:173
+msgid ""
+"默认引擎：openai\n"
+"\n"
+"文章类型分配：不配置\n"
+"语言分配：不配置\n"
+"回退规则：不配置"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:199
+msgid ""
+"默认引擎：openai\n"
+"\n"
+"语言分配：\n"
+"  en_US = hunyuan\n"
+"\n"
+"回退规则：\n"
+"  en_US = volc"
+msgstr ""
+
+#: templates/admin/help/content-routing.php:186
+msgid ""
+"默认引擎：openai\n"
+"\n"
+"语言分配：\n"
+"  en_US = hunyuan\n"
+"  yue = deepl"
+msgstr ""
+
+#: templates/admin/sections/engine-volc.php:136
+msgid "（当前）"
+msgstr ""
+
+#: templates/admin/help/content-engines.php:475
+msgid "，说明系统里有这个命令。"
+msgstr ""
+
+#: assets/js/admin-language-query.js:111
+msgid "；当前配置模型："
+msgstr ""

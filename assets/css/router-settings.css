@@ -1,0 +1,203 @@
+.tpre-router-settings-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tpre-router-settings-header-title {
+  margin: 0;
+}
+.tpre-router-settings-header-link {
+  margin: 0;
+}
+.tpre-post-type-card {
+  max-width: 1040px;
+}
+.striped.tpre-post-type-rule-table {
+  border-radius: 4px;
+  box-shadow: none;
+}
+.tpre-post-type-rule-table th,
+.tpre-post-type-rule-table td {
+  vertical-align: top;
+}
+.tpre-post-type-rule-table-th th {
+  padding: 12px 10px 12px 14px;
+  border-bottom: none !important;
+}
+.tpre-post-type-rules {
+  margin-bottom: 8px;
+}
+.tpre-post-type-rule-row {
+  border-radius: 4px;
+}
+.tpre-post-type-rule-row .button-link-delete, 
+.tpre-post-type-rule-row .tpre-post-type-remove-button {
+  margin-top: 6px;
+}
+@media (min-width: 1280px) {
+  .tpre-post-type-rule-table th:nth-child(1),
+  .tpre-post-type-rule-table td:nth-child(1) {
+    width: 45%;
+  }
+
+  .tpre-post-type-rule-table th:nth-child(2),
+  .tpre-post-type-rule-table td:nth-child(2) {
+    width: 23%;
+  }
+
+  .tpre-post-type-rule-table th:nth-child(3),
+  .tpre-post-type-rule-table td:nth-child(3) {
+    width: 20%;
+  }
+
+  .tpre-post-type-rule-table th:nth-child(4),
+  .tpre-post-type-rule-table td:nth-child(4) {
+    width: 12%;
+  }
+}
+.tpre-post-type-picker {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-height: 30px;
+  padding: 5px;
+  border: 1px solid #8c8f94;
+  border-radius: 4px;
+  background: #fff;
+  box-sizing: border-box;
+}
+.tpre-post-type-picker:focus-within {
+  border-color: #2271b1;
+  box-shadow: 0 0 0 1px #2271b1;
+}
+.tpre-post-type-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  flex: 0 1 auto;
+  min-height: 0;
+}
+.tpre-post-type-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  background: #f6f7f7;
+  border: 1px solid #dcdcde;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.tpre-post-type-tag-remove {
+  border: 0;
+  background: transparent;
+  color: #b32d2e;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+.tpre-post-type-add-select {
+  flex: 1 1 180px;
+  min-width: 160px;
+  max-width: none;
+  width: auto;
+  margin: 0;
+  border: 0;
+  box-shadow: none;
+  background-color: transparent;
+  min-height: 20px !important;
+  height: auto !important;
+}
+.tpre-post-type-add-select:focus {
+  box-shadow: none;
+  outline: none;
+}
+.tpre-engine-select {
+  width: 100%;
+  min-width: auto;
+}
+.tpre-post-type-chain-cell select {
+  width: 100%;
+  min-width: auto;
+}
+.tpre-post-type-actions {
+  margin: 12px 0 0;
+}
+.tpre-post-type-empty-state {
+  margin: 12px 0 0;
+}
+.tpre-post-type-desc {
+  margin-top: 8px;
+}
+.tpre-is-hidden {
+  display: none;
+}
+.tpre-language-query-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tpre-language-query-row input {
+  min-width: 280px;
+  flex: 1 1 320px;
+}
+.tpre-language-query-row select {
+  min-width: 180px;
+}
+.tpre-language-query-result {
+  margin-top: 12px;
+}
+.tpre-language-query-result .notice-inline {
+  margin: 8px 0 0;
+  padding: 10px 12px;
+}
+.tpre-language-query-result .notice-info {
+  margin: 12px 0 !important;
+}
+.tpre-language-query-summary {
+  margin-bottom: 10px;
+}
+.tpre-language-query-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 8px 0 0;
+}
+.tpre-language-query-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #f0f0f1;
+}
+.tpre-language-query-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+.tpre-language-query-table th,
+.tpre-language-query-table td {
+  border: 1px solid #dcdcde;
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+.tpre-language-query-table td:nth-child(2) {
+  width: 30%;
+}
+.tpre-language-query-supported {
+  color: #008a20;
+  font-weight: 600;
+}
+.tpre-language-query-unsupported {
+  color: #b32d2e;
+  font-weight: 600;
+}
+.tpre-language-query-unknown,
+.tpre-language-query-current {
+  color: #2271b1;
+  font-weight: 600;
+}
