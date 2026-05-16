@@ -2,16 +2,16 @@
 
 🌐 **Languages**: [English](README.md) | [简体中文](README.zh-CN.md)
 
-Contributors: WebAIPlanet
-Tags: translatepress, multilingual, translation, automatic translation, deepl
-Requires at least: 6.4
-Tested up to: 6.9
-Requires PHP: 7.4
-Stable tag: 1.1.3
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+* Contributors: WebAIPlanet
+* Tags: translatepress, multilingual, translation, automatic translation, deepl
+* Requires at least: 6.4
+* Tested up to: 6.9
+* Requires PHP: 7.4
+* Stable tag: 1.1.3
+* License: GPLv2 or later
+* License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Add routing, fallback control, and engine-specific settings to TranslatePress automatic translation.
+* Add routing, fallback control, and engine-specific settings to TranslatePress automatic translation.
 
 == Description ==
 
